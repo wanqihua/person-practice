@@ -1,0 +1,331 @@
+
+/***************************************************************/
+/************************去掉元素默认样式start********************/
+/***************************************************************/
+
+/* 去除移动端元素事件高亮显示*/
+body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, form,
+fieldset, input, textarea, p, blockquote, th, td{
+    -webkit-tap-highlight-color: transparent;
+}
+
+/* 去除浏览器默认的样式 */
+body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, form,
+fieldset, input, textarea, p, blockquote, th, td {
+    margin: 0;
+    padding: 0;
+}
+
+/*禁止文本复制，以及统一手势*/
+html, body {
+    -webkit-user-select: none;
+    user-select: none;
+    cursor: default;
+}
+
+ul,li{
+    list-style:none;
+}
+
+/* 输入框边框颜色 */
+input{
+    border: 0;
+    outline: none;
+    -webkit-tap-highlight-color:rgba(255,0,0,0);
+}
+
+/*表格边框合并*/
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+article, aside, footer, header, hgroup, main, nav, section{
+    display: block;
+    padding: 0;
+    margin: 0;
+}
+
+/*伪元素清除浮动*/
+.after:after {
+    content: '.';
+    display: block;
+    height: 0;
+    clear: both;
+    visibility: hidden;
+}
+
+/***************************************************************/
+/************************去掉元素默认样式end**********************/
+/***************************************************************/
+
+
+/***************************************************************/
+/**************************公共UI样式start***********************/
+/***************************************************************/
+
+/*
+  popout提示弹框样式
+*/
+.tip_alert_bg {
+    display: none;
+    position: fixed;
+    top: 0;
+    z-index: 1000;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, .4);
+}
+
+.tip_alert {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 2.7rem;
+    height: 2rem;
+    background-color: #ffffff;
+    border-radius: 4px;
+    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+}
+
+.tip_alert .tip_alert_title {
+    width: 100%;
+    height: 1em;
+    line-height: 1em;
+    font-size: 0.16rem;
+    margin-top: 0.25rem;
+    color: #020202;
+    text-align: center;
+}
+
+.tip_alert .tip_alert_sub_title {
+    box-sizing: border-box;
+    width: 100%;
+    line-height: 1.9em;
+    font-size: 0.14rem;
+    margin-top: 0.204rem;
+    padding: 0 0.17rem;
+    color: #333333;
+    text-align: left;
+    font-weight: 500;
+}
+
+.tip_alert_button_enter {
+    position: absolute;
+    width: 1.8rem;
+    left: 0.45rem;
+    bottom: 0.2rem;
+    height: 0.35rem;
+    font-size: 0.14rem;
+    line-height: 0.35rem;
+    color: #3388ff;
+    text-align: center;
+    letter-spacing: .6em;
+    box-shadow: inset 0 0 0 1px #3388ff;
+    border-radius: 24px;
+}
+
+/*
+  页面加载样式
+*/
+.hh_loading_toast {
+    position: fixed;
+    overflow: hidden;
+    width: 110px;
+    height: 110px;
+    top: 80%;
+    left: 50%;
+    border-radius: 8px;
+    background: rgba(0, 0, 0, .5);
+    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+}
+
+.hh_loading_toast_icon {
+    background: #444444;
+    margin: 30px auto 10px;
+    width: 38px;
+    height: 38px;
+    display: block;
+    vertical-align: baseline;
+    -webkit-animation: weuiLoading 1s steps(12, end) infinite;
+    animation: hhLoading 1s steps(12, end) infinite;
+    background-size: 100%;
+}
+
+@keyframes hhLoading {
+    0% {
+        -webkit-transform: rotate3d(0, 0, 1, 0deg);
+        transform: rotate3d(0, 0, 1, 0deg);
+    }
+    100% {
+        -webkit-transform: rotate3d(0, 0, 1, 360deg);
+        transform: rotate3d(0, 0, 1, 360deg);
+    }
+}
+
+.hh_loading_toast_content {
+    font-size: 14px;
+    color: #eeeeee;
+    text-align: center;
+}
+
+/*说明文字弹框*/
+.explain_alert_bg {
+    position: fixed;
+    top: 0;
+    z-index: 1000;
+    width: 100%;
+    height: 100%;
+}
+
+.explain_alert {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    width: 2.9rem;
+    background-color: #ffffff;
+    border-radius: .05rem;
+    border: 1px solid #d6d6d6;
+    box-shadow: 0 0 0.01rem #ffffff;
+    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+    padding-bottom: 0.8rem;
+    padding-top: 0.2rem;
+}
+
+.explain_alert_title {
+    box-sizing: border-box;
+    font-size: 0.18rem;
+    line-height: 3em;
+    color: #222222;
+    width: 100%;
+    text-align: center;
+}
+
+.explain_alert_content_box {
+    width: 100%;
+    overflow: hidden;
+    max-height: 3.6rem;
+}
+
+.explain_alert_content {
+    box-sizing: border-box;
+    width: 100%;
+    overflow: scroll;
+    max-height: 3.6rem;
+    padding: 0 0.2rem;
+    font-size: 0.12rem;
+    color: #333333;
+}
+
+.ok_bottom {
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    width: 0.75rem;
+    height: 0.585rem;
+    background: url(../images/explain_ok.png) no-repeat;
+    background-size: cover;
+    transform: translateX(-50%);
+    -webkit-transform: translateX(-50%);
+}
+
+/*纯css hover导航样式*/
+.navigation_bar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 2em;
+    font-size: .18rem;
+    text-align: center;
+}
+
+.navigation_bar > li {
+    position: relative;
+    padding: 0 2em;
+    color: #222222;
+    line-height: 2em;
+    transition: 0.2s all linear;
+    cursor: pointer;
+}
+
+.navigation_bar > li::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 100%;
+    width: 0;
+    height: 100%;
+    border-bottom: 2px solid #000000;
+    transition: 0.2s all linear;
+}
+
+.navigation_bar > li:hover::before {
+    width: 100%;
+    top: 0;
+    left: 0;
+    transition-delay: 0.1s;
+    border-bottom-color: #000000;
+}
+
+.navigation_bar > li:hover ~ li::before {
+    left: 0;
+}
+
+/*上拉刷新 加载相同数据使用*/
+.pull_refresh_update_time {
+    width: 100%;
+    height: .42rem;
+    line-height: .42rem;
+    text-align: center;
+    font-size: .14rem;
+    color: #a4a4a4;
+    -webkit-transform: scale(.857);
+    transform: scale(.857);
+}
+
+.pull_refresh_update_time_loading {
+    background:center center url(../images/loading.png) no-repeat;
+    background-size: .25rem .25rem;
+    animation: earn 1s infinite linear;
+}
+
+@keyframes earn {
+    0%   {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+
+/*hover: 底线从左到右淡入，hover结束从左到右淡出*/
+.hoverBaseline {
+    position: relative;
+}
+
+.hoverBaseline::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 10em;
+    height: 2px;
+    background: deeppink;
+    transition: transform .5s;
+    transform: scaleX(0);
+    transform-origin: 100% 0;
+}
+
+.hoverBaseline:hover::before {
+    transform: scaleX(1);
+    transform-origin: 0 0;
+}
+
+/***************************************************************/
+/**************************公共UI样式end*************************/
+/***************************************************************/
