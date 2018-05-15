@@ -302,6 +302,30 @@ article, aside, footer, header, hgroup, main, nav, section{
   }
 }
 
+/*代斜三角的进度条*/
+.progress_bar_box {
+  position: relative;
+  display: block;
+  width: 2.2rem;
+  height: .1rem;
+  line-height: .0;
+  border-radius: .05rem;
+  margin: .2rem auto;
+  background-color: #eff6ff;
+  overflow: hidden;
+}
+
+.progress_bar {
+  position: absolute;
+  display: block;
+  width: 19.9%;
+  height: 0;
+  left: -.05rem;
+  top: 0;
+  border-top: .1rem solid #3388ff;
+  border-right: .1rem solid transparent;
+}
+
 /*hover: 底线从左到右淡入，hover结束从左到右淡出*/
 .hoverBaseline {
   position: relative;

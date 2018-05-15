@@ -16,10 +16,31 @@
   text-align: center;
 }
 
+.progress_bar_text_area {
+  width: 100%;
+  margin: .2rem 0;
+  border-top: 1px solid #999;
+  border-bottom: 1px solid #999;
+}
+
+.input_progress_num {
+  width: 1.5rem;
+  height: .2rem;
+  line-height: .2rem;
+  padding-left: .5em;
+  color: #333;
+  border: 1px solid #999999;
+  border-radius: 4px;
+  margin: 15px auto;
+  display: block;
+  /*加上这句之后，input距离顶部的距离就由原来的比较大的值，变成了0*/
+}
+
 .input_search_hover {
   width: 100%;
   height: 3rem;
   font-size: .14rem;
+  border-bottom: 1px solid #999;
 }
 
 .search_input {

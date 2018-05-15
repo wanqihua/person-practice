@@ -11,8 +11,22 @@ wSpace.UI.hoverBar(['CSS','HTML','VUE'], 'nav_bar');
 //下拉刷新
 wSpace.function.pullRefresh();
 
+//带三角的进度条进度输入
+(function inputPro(){
+  let input = document.getElementsByClassName('input_progress_num')[0];
+  ['input','change'].forEach(function(item){
+    input.addEventListener(item, function(){
+      let barNum = document.getElementsByClassName('progress_bar')[0];
+      if( input.value === '' ){
+        input.value = 0;
+      }
+      barNum.style.width = input.value + '%';
+    })
+  })
+})();
+
 //搜索框
-function searchInput(){
+(function searchInput(){
   let topComboBoxIndex = -1;
   let searchInput = document.getElementById('searchInput');
   let searchReason = document.getElementsByClassName('search_reason')[0];
@@ -68,6 +82,4 @@ function searchInput(){
       searchInput.value = inputVuale;
     }
   }
-}
-
-searchInput();
+})();
