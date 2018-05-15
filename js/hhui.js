@@ -472,6 +472,20 @@ wSpace.function = {
   },
 
   /**
+   *  获取兄弟元素
+   */
+
+  siblings: (elm) => {
+    let a = [];
+    const p = elm.parentNode.children;
+    for(let i =0,pl= p.length; i<pl; i++) {
+      if(p[i] !== elm) a.push(p[i]);
+    }
+    return a;
+  },
+
+
+/**
   将字符串以指定长度显示，多余部分以省略号显示
   （len--显示长度  defaultStr--若字符串为空显示的字符串）
   */
