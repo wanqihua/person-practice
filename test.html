@@ -21,7 +21,7 @@
           <input type="number" class="input_progress_num" placeholder="输入0-100之间的数字">
           <div class="progress_bar_box"><span class="progress_bar"></span></div>
         </div>
-
+        <!--搜索input的逻辑-->
         <div class="input_search_hover">
           <input class="search_input" id="searchInput" type="text"  />
           <div class="search_reason">
@@ -34,6 +34,7 @@
             <p>第七个搜索结果</p>
           </div>
         </div>
+
       </div>
       <div class="pull_refresh_update_time">数据更新时间：2018-01-01</div>
     </main>
@@ -42,52 +43,3 @@
   <script src="./js/hhui.js"></script>
   <script src="./js/test.js"></script>
 </html>
-<script>
-  window.onload = function() {
-
-    /*
-      <h1 style="margin-top:20px;">JavaScript Canvas Image Conversion Example</h1>
-          <p>The images below include the original image (jpg), the canvas version, and a conversion from canvas to PNG.</p>
-
-          <h2>Original Image</h2>
-          <p>
-            <img src="./images/h.png" id="ringoImage" />
-          </p>
-
-          <h2>Canvas Image</h2>
-          <p id="canvasHolder">
-
-          </p>
-
-          <h2>Canvas -&gt; PNG Image</h2>
-          <p id="pngHolder">
-
-          </p>
-    */
-    // Get the image
-     /* var sampleImage = document.getElementById("ringoImage"),
-      canvas = convertImageToCanvas(sampleImage),
-      image = convertCanvasToImage(canvas);
-
-    // Actions
-    document.getElementById("canvasHolder").appendChild(canvas);
-    document.getElementById("pngHolder").appendChild(image);
-
-    // Converts image to canvas; returns new canvas element
-    function convertImageToCanvas(image) {
-      var canvas = document.createElement("canvas");
-      canvas.width = image.width;
-      canvas.height = image.height;
-      canvas.getContext("2d").drawImage(image, 0, 0);
-      console.log(canvas);
-      return canvas;
-    }
-
-    // Converts canvas to an image
-    function convertCanvasToImage(canvas) {
-      var image = new Image();
-      image.src = canvas.toDataURL("image/png");
-      return image;
-    }*/
-  };
-</script>

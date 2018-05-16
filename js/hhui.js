@@ -420,6 +420,20 @@ wSpace.function = {
   },
 
   /**
+   *  获取下一个兄弟元素
+   */
+  nextSibling: (ele) => {
+    let nextNode = ele.nextSibling;
+    while( nextNode.nodeType === 3 && nextNode.nodeType !== 1 ){
+      nextNode = nextNode.nextSibling;
+    }
+    if( nextNode === null ){
+      return
+    }
+    return nextNode
+  },
+
+  /**
   实现图片的预加载
   参数是一个url数组　(Array)
   例子:  preloadImg(['../../images/chipDistribution/stop.png']);
@@ -449,7 +463,6 @@ wSpace.function = {
     if( scrollTop >= documentHeight - windowHeight ){
     updateTime.innerHTML = '';
     updateTime.classList.add("pull_refresh_update_time_loading");
-    console.log(fun);
     if( fun !== undefined ){
       fun();
     }
