@@ -91,3 +91,30 @@
 .hover_bgColor {
   background: #d6d6d6;
 }
+
+.bind_data_box {
+  width: 100%;
+  height: 2rem;
+  border-bottom: 1px solid #999;
+}
+
+.bind_data_box p{
+  width: 100%;
+  height: .3rem;
+  line-height: .3rem;
+  text-align: center;
+  font-size: .16rem;
+  color: #333;
+}
+
+.bind_data_box input {
+  display: block;
+  margin: .2rem auto;
+  width: 1.6rem;
+  height: 2em;
+  border: 1px solid #f2f2f2;
+  font-size: 14px;
+  color: #222;
+  line-height: 2em;
+  text-indent: 1em;
+}

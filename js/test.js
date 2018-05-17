@@ -84,3 +84,61 @@ wSpace.function.pullRefresh();
   }
 })();
 
+(function(){
+  let inputContent = {values:'123'};
+  let input = document.getElementById('bindInput');
+  let showData = document.getElementsByClassName('show_data')[0];
+  input.addEventListener('input', function(){
+    let value = input.value;
+    Object.defineProperty(inputContent, 'values',{
+      value: value,
+    });
+    showData.innerHTML = inputContent.values;
+  });
+})();
+
+
+(function(){
+  function observe(data){
+    if(!data || typeof data !== 'object'){
+      return
+    }
+    //去所有属性遍历
+    Object.key(data).forEach(function(key){
+      defineReactive(data, key, data[key]);
+    })
+  }
+
+  function defineReactive(data, key, val){
+    let dep = new Dep();
+    observe(val); //监听子属性
+    Object.defineProperty(data, key, {
+      enumerable: true, // 可枚举
+      configurable: false, // 不能再delete
+      get: function(){
+        Dep.target && dep.addDep(Dep.target);
+        return val;
+      },
+      set: function(newVal){
+        if (val === newVal) return;
+        val = newVal;
+        dep.notify(); // 通知所有订阅者
+      }
+    });
+  }
+
+  function Dep() {
+    this.subs = [];
+  }
+
+  Dep.prototype = {
+    addSub: function(sub) {
+      this.subs.push(sub);
+    },
+    notify: function() {
+      this.subs.forEach(function(sub) {
+        sub.update();
+      });
+    }
+  };
+})();

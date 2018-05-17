@@ -421,16 +421,20 @@ wSpace.function = {
 
   /**
    *  获取下一个兄弟元素
+   *  let nextNode = elem.nextSibling;
+   *  while( nextNode.nodeType === 3 && nextNode.nodeType !== 1 ){
+   *   nextNode = nextNode.nextSibling;
+   * }
+   *  if( nextNode === null ){
+   *    return
+   *  }
+   *  return nextNode
    */
-  nextSibling: (ele) => {
-    let nextNode = ele.nextSibling;
-    while( nextNode.nodeType === 3 && nextNode.nodeType !== 1 ){
-      nextNode = nextNode.nextSibling;
-    }
-    if( nextNode === null ){
-      return
-    }
-    return nextNode
+  nextSibling: (elem) => {
+    do{
+      elem = elem.nextSibling;
+    } while(elem && elem.nodeType !== 1);
+    if(!!elem) return elem; else return null;
   },
 
   /**
