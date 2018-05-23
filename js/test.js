@@ -103,21 +103,23 @@ wSpace.function.pullRefresh();
     if(!data || typeof data !== 'object'){
       return
     }
-    //去所有属性遍历
+    //取所有属性遍历
     Object.key(data).forEach(function(key){
       defineReactive(data, key, data[key]);
     })
   }
-
+  //设置为访问器属性，并在其getter和setter函数中，使用订阅发布模式。互相监听。
   function defineReactive(data, key, val){
-    let dep = new Dep();
-    observe(val); //监听子属性
+    let dep = new Dep();   //实例化一个主题对象，对象中有空的观察者列表
+    observe(val);          //监听子属性
     Object.defineProperty(data, key, {
-      enumerable: true, // 可枚举
+      enumerable: true,    // 可枚举
       configurable: false, // 不能再delete
       get: function(){
+        // 由于需要在闭包内添加watcher，所以通过Dep定义一个全局target属性，暂存watcher, 添加完移除
         Dep.target && dep.addDep(Dep.target);
         return val;
+
       },
       set: function(newVal){
         if (val === newVal) return;
@@ -141,4 +143,13 @@ wSpace.function.pullRefresh();
       });
     }
   };
+
+  //Watcher.js
+  Watcher.prototype = {
+    get: function(key){
+      Dep.target = this;
+      this.value = data[key];  // 这里会触发属性的getter，从而添加订阅者
+      Dep.target = null;
+    }
+  }
 })();
