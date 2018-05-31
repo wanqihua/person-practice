@@ -381,11 +381,11 @@ article, aside, footer, header, hgroup, main, nav, section{
   text-overflow: ellipsis;
   white-space: nowrap;
 }
+
 /*多行显示，显示不下用...省略*/
 .split_lines {
   overflow: hidden;
   text-overflow: ellipsis;
-  white-space: nowrap;
   display: -webkit-box;
   -webkit-box-orient: vertical;
   -webkit-line-clamp: 2;
