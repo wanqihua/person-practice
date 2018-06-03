@@ -375,6 +375,44 @@ article, aside, footer, header, hgroup, main, nav, section{
   }
 }
 
+/*一行显示，显示不下用...省略*/
+.split_single_line {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+/*多行显示，显示不下用...省略*/
+.split_lines {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+  /*
+  display:-webkit-box;         //将对象作为弹性伸缩盒子模型显示。
+  -webkit-box-orient:vertical; //从上到下垂直排列子元素（设置伸缩盒子的子元素排列方式）
+  -webkit-line-clamp:2;        //这个属性不是css的规范属性，需要组合上面两个属性，表示显示的行数。
+  */
+}
+/*一行显示不下做滚动处理*/
+.marquee {
+  position: absolute;
+  animation: marquee 5s linear infinite;
+}
+
+@keyframes marquee {
+  0% {
+    left: 0;
+  }
+  60% {
+    left: -.7rem;
+  }
+}
+
+
+
+
 /***************************************************************/
 /**************************公共UI样式end*************************/
 /***************************************************************/

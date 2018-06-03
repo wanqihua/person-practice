@@ -4,7 +4,6 @@
   author: Andy
 */
 
-
 //纯css导航
 wSpace.UI.hoverBar(['CSS','HTML','VUE'], 'nav_bar');
 
@@ -80,6 +79,76 @@ wSpace.function.pullRefresh();
     }
     if( index < 0 ){
       searchInput.value = inputVuale;
+    }
+  }
+})();
+
+(function(){
+  let inputContent = {values:'123'};
+  let input = document.getElementById('bindInput');
+  let showData = document.getElementsByClassName('show_data')[0];
+  input.addEventListener('input', function(){
+    let value = input.value;
+    Object.defineProperty(inputContent, 'values',{
+      value: value,
+    });
+    showData.innerHTML = inputContent.values;
+  });
+})();
+
+
+(function(){
+  function observe(data){
+    if(!data || typeof data !== 'object'){
+      return
+    }
+    //取所有属性遍历
+    Object.key(data).forEach(function(key){
+      defineReactive(data, key, data[key]);
+    })
+  }
+  //设置为访问器属性，并在其getter和setter函数中，使用订阅发布模式。互相监听。
+  function defineReactive(data, key, val){
+    let dep = new Dep();   //实例化一个主题对象，对象中有空的观察者列表
+    observe(val);          //监听子属性
+    Object.defineProperty(data, key, {
+      enumerable: true,    // 可枚举
+      configurable: false, // 不能再delete
+      get: function(){
+        // 由于需要在闭包内添加watcher，所以通过Dep定义一个全局target属性，暂存watcher, 添加完移除
+        Dep.target && dep.addDep(Dep.target);
+        return val;
+
+      },
+      set: function(newVal){
+        if (val === newVal) return;
+        val = newVal;
+        dep.notify(); // 通知所有订阅者
+      }
+    });
+  }
+
+  function Dep() {
+    this.subs = [];
+  }
+
+  Dep.prototype = {
+    addSub: function(sub) {
+      this.subs.push(sub);
+    },
+    notify: function() {
+      this.subs.forEach(function(sub) {
+        sub.update();
+      });
+    }
+  };
+
+  //Watcher.js
+  Watcher.prototype = {
+    get: function(key){
+      Dep.target = this;
+      this.value = data[key];  // 这里会触发属性的getter，从而添加订阅者
+      Dep.target = null;
     }
   }
 })();
