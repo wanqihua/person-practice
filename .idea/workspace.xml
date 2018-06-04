@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="268b3b2c-1024-4761-9189-f1fe52b3bcc1" name="Default" comment="add some example for bind">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+    <list default="true" id="268b3b2c-1024-4761-9189-f1fe52b3bcc1" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/css3.css" afterPath="$PROJECT_DIR$/css/css3.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css3.html" afterPath="$PROJECT_DIR$/css3.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -161,14 +162,13 @@
       <find />
       <find>changeDate</find>
       <find>fff</find>
-      <find />
       <find>animation_box</find>
       <find>pull_refresh_update_time</find>
+      <find>border_radius_box</find>
     </findStrings>
     <replaceStrings>
       <replace />
       <replace>3388ff</replace>
-      <replace />
     </replaceStrings>
   </component>
   <component name="Git.Settings">
@@ -180,12 +180,12 @@
         <option value="$PROJECT_DIR$/css/css3.scss" />
         <option value="$PROJECT_DIR$/js/resize.js" />
         <option value="$PROJECT_DIR$/js/css.js" />
-        <option value="$PROJECT_DIR$/css3.html" />
         <option value="$PROJECT_DIR$/test.html" />
         <option value="$PROJECT_DIR$/css/hhui.css" />
         <option value="$PROJECT_DIR$/css/test.css" />
         <option value="$PROJECT_DIR$/js/hhui.js" />
         <option value="$PROJECT_DIR$/js/test.js" />
+        <option value="$PROJECT_DIR$/css3.html" />
         <option value="$PROJECT_DIR$/css/css3.css" />
       </list>
     </option>
@@ -255,10 +255,13 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="F:/for-Git/shanxi-ui" />
     <property name="HbShouldOpenHtmlAsHb" value="" />
-    <property name="settings.editor.selected.configurable" value="preferences.sourceCode.Sass" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="F:/for-Git/intelligentNews-ui" />
+    <property name="node.js.detected.package.prettier" value="true" />
+    <property name="node.js.path.for.package.prettier" value="project" />
+    <property name="node.js.selected.package.prettier" value="" />
+    <property name="settings.editor.selected.configurable" value="preferences.sourceCode.CSS" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -300,7 +303,7 @@
       <workItem from="1525917961084" duration="911000" />
       <workItem from="1526262778605" duration="33074000" />
       <workItem from="1527813669592" duration="1429000" />
-      <workItem from="1528073159494" duration="1847000" />
+      <workItem from="1528073159494" duration="1892000" />
     </task>
     <task id="LOCAL-00001" summary="add some example for css3">
       <created>1526348474666</created>
@@ -344,14 +347,22 @@
       <option name="project" value="LOCAL" />
       <updated>1527845487242</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="add some example for bind">
+      <created>1528101355269</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1528101355269</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="123753000" />
+    <option name="totallyTimeSpent" value="127777000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1203125" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
