@@ -143,6 +143,28 @@ wSpace.UI = {
 //相关方法
 wSpace.function = {
   /**
+   * 绝对值
+   * */
+  absoluteNum: (num) => {
+    num = Number(num);
+    return Math.abs(num)
+  },
+
+  /**
+   * 正数前加个符号
+   */
+  addSymbol: (num) => {
+    if( num === undefined || num === null ){
+      return
+    }
+    if( num.toString().substr(0, 1) !== '-' ){
+      return '+' + num
+    }else {
+      return num
+    }
+  },
+
+  /**
    * 改变new Date() 、时间戳格式 返回的数据格式
    * date: 需要改变的时间
    * format： 返回的时间格式
@@ -290,7 +312,13 @@ wSpace.function = {
     if( typeof date === 'number' ){
       date = date.toString();
     }
-    return date.substr(0, 4) + "-" + date.substr(4, 2) + "-" + date.substr(6, 2);
+    if( date.length === 6 ){           //2014-04
+      return date.substr(0, 4) + "-" + date.substr(4, 2)
+    }else if( date.length === 4 ){     //04-23
+      return date.substr(0, 2) + "-" + date.substr(2, 2);
+    }else{                             //2014-04-23
+      return date.substr(0, 4) + "-" + date.substr(4, 2) + "-" + date.substr(6, 2);
+    }
   },
 
   /**
