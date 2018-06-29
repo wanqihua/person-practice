@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+  <title>账户诊断</title>
+  <meta name="renderer" content="webkit" />
+  <meta name="description" content="" />
+  <meta name="keywords" content="" />
+  <meta name="viewport" content="width=device-width, minimum-scale=1.0, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+  <meta name="format-detection" content="telephone=no">
+  <link rel="stylesheet" href="../../common/css/font-awesome/css/font-awesome.css" />
+  <link rel="stylesheet" href="../../common/css/init.css" />
+  <link rel="stylesheet" href="../../css/public.css" />
+  <link rel="stylesheet" href="../../css/accountDiagnosis/accountReport.css" />
+</head>
+<script type="text/javascript" src="../../common/js/resize.js"></script>
+<body>
+<div class="header">
+  <div class="header_box">
+    <div class="back"><i class="fa fa-angle-left" aria-hidden="true"></i></div>
+    <div class="title">
+      <div class="report_diagnosis">
+        <span class='report_diagnosis_active' data-period="report">账户报告</span>
+        <span data-period="diagnosis">账户诊断</span>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="main">
+  <div>
+    <div class="asset_sum">
+      <p>账户总资产（元）</p>
+      <p>2356.35</p>
+    </div>
+    <div class="chart_box">
+      <div class="pie_chart_box">
+        <div id="pieChart"></div>
+        <div class="legend_box">
+          <div>
+            <p>股票类</p>
+            <p>80%</p>
+          </div>
+          <div>
+            <p>非股票类</p>
+            <p>10%</p>
+          </div>
+          <div>
+            <p>现金类</p>
+            <p>10%</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="account_asset">
+    <div class="sub_title">账户收益</div>
+    <div class="asset_box">
+      <div>
+        <p>近一月收益率</p>
+        <p class="red">23.56%</p>
+      </div>
+      <div>
+        <p>跑赢沪深300指数<span class="red">19.37%</span></p>
+      </div>
+    </div>
+    <div class="line_chart_box">
+      <div id="lineChart"></div>
+      <div class="period_time_box">
+        <p class="active">近一月</p>
+        <p>近三月</p>
+        <p>近半年</p>
+        <p>近一年</p>
+        <p>累计</p>
+      </div>
+    </div>
+  </div>
+
+</div>
+<script type="text/javascript" src="../../common/js/jquery-3.2.1.min.js"></script>
+<script src="../../common/js/highchart/highcharts.js"></script>
+<script src="../../common/js/highchart/highcharts-more.js"></script>
+<script type="text/javascript" src="../../js/accountDiagnosis/accountReport.js"></script>
+</body>
+</html>

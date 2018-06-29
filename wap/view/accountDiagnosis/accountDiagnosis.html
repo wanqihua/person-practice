@@ -1,494 +1,493 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
-    <title>账户诊断</title>
-    <meta name="renderer" content="webkit" />
-    <meta name="description" content="" />
-    <meta name="keywords" content="" />
-    <meta name="viewport" content="width=device-width, minimum-scale=1.0, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
-    <meta name="format-detection" content="telephone=no">
-    <link rel="stylesheet" href="../../common/css/font-awesome/css/font-awesome.css" />
-    <link rel="stylesheet" href="../../common/css/init.css" />
-    <link rel="stylesheet" href="../../css/public.css" />
-    <link rel="stylesheet" href="../../css/accountDiagnosis/accountDiagnosis.css" />
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+  <title>账户诊断</title>
+  <meta name="renderer" content="webkit" />
+  <meta name="description" content="" />
+  <meta name="keywords" content="" />
+  <meta name="viewport" content="width=device-width, minimum-scale=1.0, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+  <meta name="format-detection" content="telephone=no">
+  <link rel="stylesheet" href="../../common/css/font-awesome/css/font-awesome.css" />
+  <link rel="stylesheet" href="../../common/css/init.css" />
+  <link rel="stylesheet" href="../../css/public.css" />
+  <link rel="stylesheet" href="../../css/accountDiagnosis/accountDiagnosis.css" />
 </head>
 <script type="text/javascript" src="../../common/js/resize.js"></script>
 <body>
-    <div class="header">
-        <div class="header_box">
-            <div class="back"><i class="fa fa-angle-left" aria-hidden="true"></i></div>
-            <div class="title">
-                <div class="report_diagnosis">
-                    <span data-period="report">账户报告</span>
-                    <span class='report_diagnosis_active' data-period="diagnosis">账户诊断</span>
-                </div>
-            </div>
+  <div class="header">
+    <div class="header_box">
+      <div class="back"><i class="fa fa-angle-left" aria-hidden="true"></i></div>
+      <div class="title">
+        <div class="report_diagnosis">
+          <span data-period="report">账户报告</span>
+          <span class='report_diagnosis_active' data-period="diagnosis">账户诊断</span>
         </div>
+      </div>
     </div>
-    <div class="main">
-        <div class="diagnosis_result_box">
-            <div class="sub_title">诊断结果</div>
-            <div class="sub_content">
-                <div class="position_describe">
-                    <p>您属于风险承受能力较高的积极型投资者，风险控制能力较低，偏好成长型股票。</p>
-                    <p>当前您的股票仓位配置偏高，持仓个股及行业都获得了相对较低的评级；建议适当降低组合仓位，同时调整行业、个股配置。</p>
-                    <p>相对风险个股：信威集团（600485）</p>
-                    <p>相对风险行业：通讯设备行业（32/61）</p>
-                </div>
-                <div class="risk_measurement">风险重测</div>
-            </div>
+  </div>
+  <div class="main">
+    <div class="diagnosis_result_box">
+      <div class="sub_title">诊断结果</div>
+      <div class="sub_content">
+        <div class="position_describe">
+          <p>您属于风险承受能力较高的积极型投资者，风险控制能力较低，偏好成长型股票。</p>
+          <p>当前您的股票仓位配置偏高，持仓个股及行业都获得了相对较低的评级；建议适当降低组合仓位，同时调整行业、个股配置。</p>
+          <p>相对风险个股：信威集团（600485）</p>
+          <p>相对风险行业：通讯设备行业（32/61）</p>
         </div>
-        <div class="position_diagnosis_box">
-            <div class="sub_title">仓位诊断</div>
-            <div class="sub_content">
-                <div class="position_describe_bg">
-                    <p>结合市场行情和您的风险级别，您的建议股票仓位为80%</p>
-                    <p>您的实际仓位是30%，高于建议仓位</p>
+        <div class="risk_measurement">风险重测</div>
+      </div>
+    </div>
+    <div class="position_diagnosis_box">
+      <div class="sub_title">仓位诊断</div>
+      <div class="sub_content">
+        <div class="position_describe_bg">
+          <p>结合市场行情和您的风险级别，您的建议股票仓位为80%</p>
+          <p>您的实际仓位是30%，高于建议仓位</p>
+        </div>
+        <div class="position_bar_box">
+          <div class="reality_position_box">
+            <div class="reality_position">
+              <p>实际持仓</p>
+              <p>98.67%</p>
+            </div>
+          </div>
+          <div class="position_bar">
+            <p>0%</p>
+            <p>100%</p>
+          </div>
+          <div class="advice_position_box">
+            <div class="advice_position">
+              <p>建议持仓</p>
+              <p>50%</p>
+            </div>
+          </div>
+        </div>
+        <p class="single_line"></p>
+        <div class="position_describe_bg">
+          <p>针对您的投资风格和仓位特点，系统为您提供以下账户结构建议</p>
+        </div>
+        <div class="pie_chart_box">
+          <div id="pieChart"></div>
+          <div class="legend_box">
+            <div>
+              <p>股票类</p>
+              <p>80%</p>
+            </div>
+            <div>
+              <p>非股票类</p>
+              <p>10%</p>
+            </div>
+            <div>
+              <p>现金类</p>
+              <p>10%</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="get_position_diagnosis_box">
+      <div class="sub_title">持仓诊断</div>
+      <div class="sub_content">
+        <div class="three_table">
+          <p class="active">股票</p>
+          <p>基金</p>
+          <p>信用</p>
+          <div class="baceline"></div>
+        </div>
+        <div>
+          <div class="stock_table">
+            <div class="table_header_fixed">
+              <div class="table_header">
+                <div>名称/代码</div>
+                <div>诊股得分</div>
+                <div>盈亏金额</div>
+                <div>开启<br>换股建议</div>
+              </div>
+            </div>
+            <div class="table_body">
+              <div class="no_stock" style="display: none">您暂无持仓股票</div>
+              <div class="single_stock_box padding_bottom">
+                <div class="single_stock">
+                  <div>
+                    <p>阳光城</p>
+                    <p>600358</p>
+                  </div>
+                  <div>75</div>
+                  <div>3456.34</div>
+                  <!-- <div>暂无建议</div> -->
+                  <p class="switch_button_on"><span></span></p>
                 </div>
-                <div class="position_bar_box">
-                    <div class="reality_position_box">
-                        <div class="reality_position">
-                            <p>实际持仓</p>
-                            <p>98.67%</p>
-                        </div>
+                <div class="change_stock_list">
+                  <div class="triangle"></div><div class="triangle2"></div>
+                  <div class="title_four_tab">
+                    <div class="active">同PE</div>
+                    <div class="">同行业</div>
+                    <div class="">同价</div>
+                    <div class="">同市值</div>
+                  </div>
+                  <div class="change_stock_table">
+                    <div class="change_stock_table_header">
+                      <div>名称</div>
+                      <div>最新价</div>
+                      <div>个股诊断</div>
                     </div>
-                    <div class="position_bar">
-                        <p>0%</p>
-                        <p>100%</p>
-                    </div>
-                    <div class="advice_position_box">
-                        <div class="advice_position">
-                            <p>建议持仓</p>
-                            <p>50%</p>
-                        </div>
-                    </div>
-                </div>
-                <p class="single_line"></p>
-                <div class="position_describe_bg">
-                    <p>针对您的投资风格和仓位特点，系统为您提供以下账户结构建议</p>
-                </div>
-                <div class="pie_chart_box">
-                    <div id="pieChart"></div>
-                    <div class="legend_box">
+                    <div class="change_stock_table_body">
+                      <div class="change_stock_table_single">
                         <div>
-                            <p>股票类</p>
-                            <p>80%</p>
+                          <p>万科</p>
+                          <p>333333</p>
                         </div>
+                        <div>33</div>
                         <div>
-                            <p>非股票类</p>
-                            <p>10%</p>
+                          <i class="fa fa-star" aria-hidden="true"></i>
+                          <i class="fa fa-star" aria-hidden="true"></i>
+                          <i class="fa fa-star" aria-hidden="true"></i>
+                          <i class="fa fa-star" aria-hidden="true"></i>
+                          <i class="fa fa-star" aria-hidden="true"></i>
                         </div>
+                      </div>
+                      <div class="change_stock_table_single">
                         <div>
-                            <p>现金类</p>
-                            <p>10%</p>
+                          <p>万科</p>
+                          <p>333333</p>
                         </div>
+                        <div>33</div>
+                        <div>
+                          <i class="fa fa-star" aria-hidden="true"></i>
+                          <i class="fa fa-star" aria-hidden="true"></i>
+                          <i class="fa fa-star" aria-hidden="true"></i>
+                          <i class="fa fa-star" aria-hidden="true"></i>
+                          <i class="fa fa-star" aria-hidden="true"></i>
+                        </div>
+                      </div>
+                      <div class="change_stock_table_single">
+                        <div>
+                          <p>万科</p>
+                          <p>333333</p>
+                        </div>
+                        <div>33</div>
+                        <div>
+                          <i class="fa fa-star" aria-hidden="true"></i>
+                          <i class="fa fa-star" aria-hidden="true"></i>
+                          <i class="fa fa-star" aria-hidden="true"></i>
+                          <i class="fa fa-star" aria-hidden="true"></i>
+                          <i class="fa fa-star" aria-hidden="true"></i>
+                        </div>
+                      </div>
                     </div>
+                    <div class="no_same_stock" style="display: none">该类型维度暂无相似股票</div>
+                  </div>
                 </div>
+              </div>
+              <div class="single_stock_box">
+                <div class="single_stock">
+                  <div>
+                    <p>阳光城</p>
+                    <p>600358</p>
+                  </div>
+                  <div>75</div>
+                  <div>3456.34</div>
+                <!-- <div>暂无建议</div> -->
+                  <p class="switch_button_on"><span></span></p>
+                </div>
+              </div>
+              <div class="single_stock_box">
+                <div class="single_stock">
+                  <div>
+                    <p>阳光城</p>
+                    <p>600358</p>
+                  </div>
+                  <div>75</div>
+                  <div>3456.34</div>
+                  <div>暂无建议</div>
+                  <!-- <p class="switch_button_on"><span></span></p> -->
+                </div>
+              </div>
             </div>
-        </div>
-        <div class="get_position_diagnosis_box">
-            <div class="sub_title">持仓诊断</div>
-            <div class="sub_content">
-                <div class="three_table">
-                    <p class="active">股票</p>
-                    <p>基金</p>
-                    <p>信用</p>
-                    <div class="baceline"></div>
+          </div>
+          <div class="fund_box">
+            <div class="self_fund_box">
+              <div class="single_fund_box">
+                <div class="fund_name">
+                  <span>国企改A</span>
+                  <span>143666</span>
                 </div>
-                <div>
-                    <div class="stock_table">
-                        <div class="table_header_fixed">
-                            <div class="table_header">
-                                <div>名称/代码</div>
-                                <div>诊股得分</div>
-                                <div>盈亏金额</div>
-                                <div>开启<br>换股建议</div>
-                            </div>
-                        </div>
-                        <div class="table_body">
-                            <div class="no_stock" style="display: none">您暂无持仓股票</div>
-                            <div class="single_stock_box padding_bottom">
-                                <div class="single_stock">
-                                    <div>
-                                        <p>阳光城</p>
-                                        <p>600358</p>
-                                    </div>
-                                    <div>75</div>
-                                    <div>3456.34</div>
-                                    <!-- <div>暂无建议</div> -->
-                                    <p class="switch_button_on"><span></span></p>
-                                </div>
-                                <div class="change_stock_list">
-                                    <div class="triangle"></div><div class="triangle2"></div>
-                                    <div class="title_four_tab">
-                                        <div class="active">同PE</div>
-                                        <div class="">同行业</div>
-                                        <div class="">同价</div>
-                                        <div class="">同市值</div>
-                                    </div>
-                                    <div class="change_stock_table">
-                                        <div class="change_stock_table_header">
-                                            <div>名称</div>
-                                            <div>最新价</div>
-                                            <div>个股诊断</div>
-                                        </div>
-                                        <div class="change_stock_table_body">
-                                            <div class="change_stock_table_single">
-                                                <div>
-                                                    <p>万科</p>
-                                                    <p>333333</p>
-                                                </div>
-                                                <div>33</div>
-                                                <div>
-                                                    <i class="fa fa-star" aria-hidden="true"></i>
-                                                    <i class="fa fa-star" aria-hidden="true"></i>
-                                                    <i class="fa fa-star" aria-hidden="true"></i>
-                                                    <i class="fa fa-star" aria-hidden="true"></i>
-                                                    <i class="fa fa-star" aria-hidden="true"></i>
-                                                </div>
-                                            </div>
-                                            <div class="change_stock_table_single">
-                                                <div>
-                                                    <p>万科</p>
-                                                    <p>333333</p>
-                                                </div>
-                                                <div>33</div>
-                                                <div>
-                                                    <i class="fa fa-star" aria-hidden="true"></i>
-                                                    <i class="fa fa-star" aria-hidden="true"></i>
-                                                    <i class="fa fa-star" aria-hidden="true"></i>
-                                                    <i class="fa fa-star" aria-hidden="true"></i>
-                                                    <i class="fa fa-star" aria-hidden="true"></i>
-                                                </div>
-                                            </div>
-                                            <div class="change_stock_table_single">
-                                                <div>
-                                                    <p>万科</p>
-                                                    <p>333333</p>
-                                                </div>
-                                                <div>33</div>
-                                                <div>
-                                                    <i class="fa fa-star" aria-hidden="true"></i>
-                                                    <i class="fa fa-star" aria-hidden="true"></i>
-                                                    <i class="fa fa-star" aria-hidden="true"></i>
-                                                    <i class="fa fa-star" aria-hidden="true"></i>
-                                                    <i class="fa fa-star" aria-hidden="true"></i>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="no_same_stock" style="display: none">该类型维度暂无相似股票</div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="single_stock_box">
-                                <div class="single_stock">
-                                    <div>
-                                        <p>阳光城</p>
-                                        <p>600358</p>
-                                    </div>
-                                    <div>75</div>
-                                    <div>3456.34</div>
-                                <!-- <div>暂无建议</div> -->
-                                    <p class="switch_button_on"><span></span></p>
-                                </div>
-                            </div>
-                            <div class="single_stock_box">
-                                <div class="single_stock">
-                                    <div>
-                                        <p>阳光城</p>
-                                        <p>600358</p>
-                                    </div>
-                                    <div>75</div>
-                                    <div>3456.34</div>
-                                    <div>暂无建议</div>
-                                    <!-- <p class="switch_button_on"><span></span></p> -->
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="fund_box">
-                        <div class="self_fund_box">
-                            <div class="single_fund_box">
-                                <div class="fund_name">
-                                    <span>国企改A</span>
-                                    <span>143666</span>
-                                </div>
-                                <div class="fund_info">
-                                    <div class="fund_info_left">
-                                        <p>市值（盈亏比例）</p>
-                                        <p>0.71<span class="red">（1.96%)</span></p>
-                                    </div>
-                                    <div class="fund_info_right">
-                                        <P>持仓数量</P>
-                                        <p>19934</p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="single_fund_box">
-                                <div class="fund_name">
-                                    <span>国企改A</span>
-                                    <span>143666</span>
-                                </div>
-                                <div class="fund_info">
-                                    <div class="fund_info_left">
-                                        <p>市值（盈亏比例）</p>
-                                        <p>0.71<span class="red">（1.96%)</span></p>
-                                    </div>
-                                    <div class="fund_info_right">
-                                        <P>持仓数量</P>
-                                        <p>19934</p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="single_fund_box">
-                                <div class="fund_name">
-                                    <span>国企改A</span>
-                                    <span>143666</span>
-                                </div>
-                                <div class="fund_info">
-                                    <div class="fund_info_left">
-                                        <p>市值（盈亏比例）</p>
-                                        <p>0.71<span class="red">（1.96%)</span></p>
-                                    </div>
-                                    <div class="fund_info_right">
-                                        <P>持仓数量</P>
-                                        <p>19934</p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="single_fund_box">
-                                <div class="fund_name">
-                                    <span>国企改A</span>
-                                    <span>143666</span>
-                                </div>
-                                <div class="fund_info">
-                                    <div class="fund_info_left">
-                                        <p>市值（盈亏比例）</p>
-                                        <p>0.71<span class="red">（1.96%)</span></p>
-                                    </div>
-                                    <div class="fund_info_right">
-                                        <P>持仓数量</P>
-                                        <p>19934</p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="single_fund_box">
-                                <div class="fund_name">
-                                    <span>国企改A</span>
-                                    <span>143666</span>
-                                </div>
-                                <div class="fund_info">
-                                    <div class="fund_info_left">
-                                        <p>市值（盈亏比例）</p>
-                                        <p>0.71<span class="red">（1.96%)</span></p>
-                                    </div>
-                                    <div class="fund_info_right">
-                                        <P>持仓数量</P>
-                                        <p>19934</p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="recommend_box">
-                            <div class="position_describe">
-                                <p>为了增强您收益的稳定，我们建议您将总资产的20%投入到风险相对较小的理财产品中。基于您的投资偏好及风险承受能力，我们为您推荐了以下理财产品：</p>
-                            </div>
-                            <div class="recommend_name">广发沪深300指数C</div>
-                            <div class="recommend_time">首发日期：2018年06月04日-06月22日</div>
-                        </div>
-                        <div class="hot_sale_box">
-                            <div class="title_two_tab">
-                                <div class="active">热销基金产品</div>
-                                <div>热销理财产品</div>
-                            </div>
-                            <div>
-                                <div class="fund_hot_sale hot_sale">
-                                    <div class="hot_sale_header">
-                                        <p>产品名称</p>
-                                        <p>产品类型</p>
-                                        <p>风险等级</p>
-                                        <p>单位净值</p>
-                                    </div>
-                                    <div class="hot_sale_body">
-                                        <div class="single_fund">
-                                            <p>国都创新驱动灵活配置</p>
-                                            <p>混合型</p>
-                                            <p>中</p>
-                                            <p>0.6785</p>
-                                        </div>
-                                        <div class="single_fund">
-                                            <p>国都创新驱</p>
-                                            <p>混合型</p>
-                                            <p>中</p>
-                                            <p>0.6785</p>
-                                        </div>
-                                        <div class="single_fund">
-                                            <p>国都活配置</p>
-                                            <p>混合型</p>
-                                            <p>中</p>
-                                            <p>0.6785</p>
-                                        </div>
-                                        <div class="single_fund">
-                                            <p>国都创新配置</p>
-                                            <p>混合型</p>
-                                            <p>中</p>
-                                            <p>0.6785</p>
-                                        </div>
-                                        <div class="single_fund">
-                                            <p>国都创新驱动灵活配置</p>
-                                            <p>混合型</p>
-                                            <p>中</p>
-                                            <p>0.6785</p>
-                                        </div>
-                                        <div class="single_fund">
-                                            <p>国都创新驱动灵活配置</p>
-                                            <p>混合型</p>
-                                            <p>中</p>
-                                            <p>0.6785</p>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="manage_hot_sale hot_sale">
-                                    <div class="hot_sale_header">
-                                        <p>产品名称</p>
-                                        <p>产品类型</p>
-                                        <p>风险等级</p>
-                                        <p>单位净值</p>
-                                    </div>
-                                    <div class="hot_sale_body">
-                                        <div class="single_fund">
-                                            <p>国都活配置</p>
-                                            <p>混合型</p>
-                                            <p>中</p>
-                                            <p>0.6785</p>
-                                        </div>
-                                        <div class="single_fund">
-                                            <p>国都创新配置</p>
-                                            <p>混合型</p>
-                                            <p>中</p>
-                                            <p>0.6785</p>
-                                        </div>
-                                        <div class="single_fund">
-                                            <p>国都创新驱动灵活配置</p>
-                                            <p>混合型</p>
-                                            <p>中</p>
-                                            <p>0.6785</p>
-                                        </div>
-                                        <div class="single_fund">
-                                            <p>国都创新驱动灵活配置</p>
-                                            <p>混合型</p>
-                                            <p>中</p>
-                                            <p>0.6785</p>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="credit_box">
-                        <div class="single_fund_box">
-                            <div class="fund_name">
-                                <span>常熟银行</span>
-                                <span>601128</span>
-                            </div>
-                            <div class="fund_info">
-                                <div class="fund_info_left">
-                                    <p>参考盈亏</p>
-                                    <p>0.71</p>
-                                </div>
-                                <div class="fund_info_right">
-                                    <P>持仓占比</P>
-                                    <p>19%</p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="single_fund_box">
-                            <div class="fund_name">
-                                <span>常熟银行</span>
-                                <span>601128</span>
-                            </div>
-                            <div class="fund_info">
-                                <div class="fund_info_left">
-                                    <p>参考盈亏</p>
-                                    <p>0.71</p>
-                                </div>
-                                <div class="fund_info_right">
-                                    <P>持仓占比</P>
-                                    <p>19%</p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="single_fund_box">
-                            <div class="fund_name">
-                                <span>常熟银行</span>
-                                <span>601128</span>
-                            </div>
-                            <div class="fund_info">
-                                <div class="fund_info_left">
-                                    <p>参考盈亏</p>
-                                    <p>0.71</p>
-                                </div>
-                                <div class="fund_info_right">
-                                    <P>持仓占比</P>
-                                    <p>19%</p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="single_fund_box">
-                            <div class="fund_name">
-                                <span>常熟银行</span>
-                                <span>601128</span>
-                            </div>
-                            <div class="fund_info">
-                                <div class="fund_info_left">
-                                    <p>参考盈亏</p>
-                                    <p>0.71</p>
-                                </div>
-                                <div class="fund_info_right">
-                                    <P>持仓占比</P>
-                                    <p>19%</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
+                <div class="fund_info">
+                  <div class="fund_info_left">
+                    <p>市值（盈亏比例）</p>
+                    <p>0.71<span class="red">（1.96%)</span></p>
+                  </div>
+                  <div class="fund_info_right">
+                    <P>持仓数量</P>
+                    <p>19934</p>
+                  </div>
                 </div>
+              </div>
+              <div class="single_fund_box">
+                <div class="fund_name">
+                  <span>国企改A</span>
+                  <span>143666</span>
+                </div>
+                <div class="fund_info">
+                  <div class="fund_info_left">
+                    <p>市值（盈亏比例）</p>
+                    <p>0.71<span class="red">（1.96%)</span></p>
+                  </div>
+                  <div class="fund_info_right">
+                    <P>持仓数量</P>
+                    <p>19934</p>
+                  </div>
+                </div>
+              </div>
+              <div class="single_fund_box">
+                <div class="fund_name">
+                  <span>国企改A</span>
+                  <span>143666</span>
+                </div>
+                <div class="fund_info">
+                  <div class="fund_info_left">
+                    <p>市值（盈亏比例）</p>
+                    <p>0.71<span class="red">（1.96%)</span></p>
+                  </div>
+                  <div class="fund_info_right">
+                    <P>持仓数量</P>
+                    <p>19934</p>
+                  </div>
+                </div>
+              </div>
+              <div class="single_fund_box">
+                <div class="fund_name">
+                  <span>国企改A</span>
+                  <span>143666</span>
+                </div>
+                <div class="fund_info">
+                  <div class="fund_info_left">
+                    <p>市值（盈亏比例）</p>
+                    <p>0.71<span class="red">（1.96%)</span></p>
+                  </div>
+                  <div class="fund_info_right">
+                    <P>持仓数量</P>
+                    <p>19934</p>
+                  </div>
+                </div>
+              </div>
+              <div class="single_fund_box">
+                <div class="fund_name">
+                  <span>国企改A</span>
+                  <span>143666</span>
+                </div>
+                <div class="fund_info">
+                  <div class="fund_info_left">
+                    <p>市值（盈亏比例）</p>
+                    <p>0.71<span class="red">（1.96%)</span></p>
+                  </div>
+                  <div class="fund_info_right">
+                    <P>持仓数量</P>
+                    <p>19934</p>
+                  </div>
+                </div>
+              </div>
             </div>
-        </div>
-        <div class="holding_style_box">
-            <div class="sub_title">持股风格</div>
-            <div class="sub_content">
-                <div class="big_market_box">
-                    <div class="num">12</div>
-                    <div class="num">12</div>
-                    <div class="num">12</div>
-                </div>
-                <div class="middle_market_box">
-                    <div class="num">12</div>
-                    <div class="num">12</div>
-                    <div class="num">12</div>
-                </div>
-                <div class="small_market_box">
-                    <div class="num">12</div>
-                    <div class="num">12</div>
-                    <div class="num">12</div>
-                </div>
-                <div class="style_name_box">
-                    <div>价值</div>
-                    <div>综合</div>
-                    <div>成长</div>
-                </div>
+            <div class="recommend_box">
+              <div class="position_describe">
+                <p>为了增强您收益的稳定，我们建议您将总资产的20%投入到风险相对较小的理财产品中。基于您的投资偏好及风险承受能力，我们为您推荐了以下理财产品：</p>
+              </div>
+              <div class="recommend_name">广发沪深300指数C</div>
+              <div class="recommend_time">首发日期：2018年06月04日-06月22日</div>
             </div>
+            <div class="hot_sale_box">
+              <div class="title_two_tab">
+                <div class="active">热销基金产品</div>
+                <div>热销理财产品</div>
+              </div>
+              <div>
+                <div class="fund_hot_sale hot_sale">
+                  <div class="hot_sale_header">
+                    <p>产品名称</p>
+                    <p>产品类型</p>
+                    <p>风险等级</p>
+                    <p>单位净值</p>
+                  </div>
+                  <div class="hot_sale_body">
+                    <div class="single_fund">
+                      <p>国都创新驱动灵活配置</p>
+                      <p>混合型</p>
+                      <p>中</p>
+                      <p>0.6785</p>
+                    </div>
+                    <div class="single_fund">
+                      <p>国都创新驱</p>
+                      <p>混合型</p>
+                      <p>中</p>
+                      <p>0.6785</p>
+                    </div>
+                    <div class="single_fund">
+                      <p>国都活配置</p>
+                      <p>混合型</p>
+                      <p>中</p>
+                      <p>0.6785</p>
+                    </div>
+                    <div class="single_fund">
+                      <p>国都创新配置</p>
+                      <p>混合型</p>
+                      <p>中</p>
+                      <p>0.6785</p>
+                    </div>
+                    <div class="single_fund">
+                      <p>国都创新驱动灵活配置</p>
+                      <p>混合型</p>
+                      <p>中</p>
+                      <p>0.6785</p>
+                    </div>
+                    <div class="single_fund">
+                      <p>国都创新驱动灵活配置</p>
+                      <p>混合型</p>
+                      <p>中</p>
+                      <p>0.6785</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="manage_hot_sale hot_sale">
+                  <div class="hot_sale_header">
+                    <p>产品名称</p>
+                    <p>产品类型</p>
+                    <p>风险等级</p>
+                    <p>单位净值</p>
+                  </div>
+                  <div class="hot_sale_body">
+                    <div class="single_fund">
+                      <p>国都活配置</p>
+                      <p>混合型</p>
+                      <p>中</p>
+                      <p>0.6785</p>
+                    </div>
+                    <div class="single_fund">
+                      <p>国都创新配置</p>
+                      <p>混合型</p>
+                      <p>中</p>
+                      <p>0.6785</p>
+                    </div>
+                    <div class="single_fund">
+                      <p>国都创新驱动灵活配置</p>
+                      <p>混合型</p>
+                      <p>中</p>
+                      <p>0.6785</p>
+                    </div>
+                    <div class="single_fund">
+                      <p>国都创新驱动灵活配置</p>
+                      <p>混合型</p>
+                      <p>中</p>
+                      <p>0.6785</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="credit_box">
+            <div class="single_fund_box">
+              <div class="fund_name">
+                <span>常熟银行</span>
+                <span>601128</span>
+              </div>
+              <div class="fund_info">
+                <div class="fund_info_left">
+                  <p>参考盈亏</p>
+                  <p>0.71</p>
+                </div>
+                <div class="fund_info_right">
+                  <P>持仓占比</P>
+                  <p>19%</p>
+                </div>
+              </div>
+            </div>
+            <div class="single_fund_box">
+              <div class="fund_name">
+                <span>常熟银行</span>
+                <span>601128</span>
+              </div>
+              <div class="fund_info">
+                <div class="fund_info_left">
+                  <p>参考盈亏</p>
+                  <p>0.71</p>
+                </div>
+                <div class="fund_info_right">
+                  <P>持仓占比</P>
+                  <p>19%</p>
+                </div>
+              </div>
+            </div>
+            <div class="single_fund_box">
+              <div class="fund_name">
+                <span>常熟银行</span>
+                <span>601128</span>
+              </div>
+              <div class="fund_info">
+                <div class="fund_info_left">
+                  <p>参考盈亏</p>
+                  <p>0.71</p>
+                </div>
+                <div class="fund_info_right">
+                  <P>持仓占比</P>
+                  <p>19%</p>
+                </div>
+              </div>
+            </div>
+            <div class="single_fund_box">
+              <div class="fund_name">
+                <span>常熟银行</span>
+                <span>601128</span>
+              </div>
+              <div class="fund_info">
+                <div class="fund_info_left">
+                  <p>参考盈亏</p>
+                  <p>0.71</p>
+                </div>
+                <div class="fund_info_right">
+                  <P>持仓占比</P>
+                  <p>19%</p>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
-        <div class="disclaimer">
-            <p>免责声明</p>
-            <p>本内容仅供参考，具体以账户实际信息为准。不构成对所涉证券任何买卖建议或意见，不作为投资决策的依据。国都证券不对其准确性、完整性和及时性做出任何保证，国都证券不因据此操作产生的盈亏承担任何责任！投资有风险，入市需谨慎！</p>
+      </div>
+    </div>
+    <div class="holding_style_box">
+      <div class="sub_title">持股风格</div>
+      <div class="sub_content">
+        <div class="big_market_box">
+          <div class="num">12</div>
+          <div class="num">12</div>
+          <div class="num">12</div>
         </div>
-    </div> 
-    <script type="text/javascript" src="../../common/js/jquery-3.2.1.min.js"></script>
-    <script src="../../common/js/highchart/highcharts.js"></script>
-    <script src="../../common/js/highchart/highcharts-more.js"></script>
-    <script type="text/javascript" src="../../common/js/layer/layer.js"></script> 
-    <script type="text/javascript" src="../../js/accountDiagnosis/accountDiagnosis.js"></script>       
+        <div class="middle_market_box">
+          <div class="num">12</div>
+          <div class="num">12</div>
+          <div class="num">12</div>
+        </div>
+        <div class="small_market_box">
+          <div class="num">12</div>
+          <div class="num">12</div>
+          <div class="num">12</div>
+        </div>
+        <div class="style_name_box">
+          <div>价值</div>
+          <div>综合</div>
+          <div>成长</div>
+        </div>
+      </div>
+    </div>
+    <div class="disclaimer">
+      <p>免责声明</p>
+      <p>本内容仅供参考，具体以账户实际信息为准。不构成对所涉证券任何买卖建议或意见，不作为投资决策的依据。国都证券不对其准确性、完整性和及时性做出任何保证，国都证券不因据此操作产生的盈亏承担任何责任！投资有风险，入市需谨慎！</p>
+    </div>
+  </div> 
+  <script type="text/javascript" src="../../common/js/jquery-3.2.1.min.js"></script>
+  <script src="../../common/js/highchart/highcharts.js"></script>
+  <script src="../../common/js/highchart/highcharts-more.js"></script>
+  <script type="text/javascript" src="../../js/accountDiagnosis/accountDiagnosis.js"></script>
 </body>
 </html>

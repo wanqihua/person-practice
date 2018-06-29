@@ -1,572 +1,37 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="268b3b2c-1024-4761-9189-f1fe52b3bcc1" name="Default" comment="628">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wap/common/css/font-awesome/fonts/FontAwesome.otf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wap/common/css/font-awesome/fonts/fontawesome-webfont.eot" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wap/common/css/font-awesome/fonts/fontawesome-webfont.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wap/common/css/font-awesome/fonts/fontawesome-webfont.woff" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wap/common/css/font-awesome/fonts/fontawesome-webfont.woff2" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wap/common/fonts/Bahnschrift/Bahnschrift.eot" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wap/common/fonts/Bahnschrift/Bahnschrift.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wap/common/fonts/Bahnschrift/Bahnschrift.woff" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wap/common/fonts/Bahnschrift/Bahnschrift.woff2" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wap/common/fonts/Din/din-regular-webfont.eot" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wap/common/fonts/Din/din-regular-webfont.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wap/common/fonts/Din/din-regular-webfont.woff" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wap/common/fonts/Din/din-regular-webfont.woff2" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wap/common/fonts/PF/pf-medium.eot" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wap/common/fonts/PF/pf-medium.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wap/common/fonts/PF/pf-medium.woff" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wap/common/fonts/PF/pf-medium.woff2" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wap/common/fonts/PF/pf-regular.eot" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wap/common/fonts/PF/pf-regular.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wap/common/fonts/PF/pf-regular.woff" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wap/common/fonts/PF/pf-regular.woff2" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wap/common/fonts/PF/pf.eot" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wap/common/fonts/PF/pf.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wap/common/fonts/PF/pf.woff" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wap/common/fonts/PF/pf.woff2" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wap/common/fonts/Product-Sans/Product Sans Regular.eot" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wap/common/fonts/Product-Sans/Product Sans Regular.woff2" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wap/common/fonts/Product-Sans/ProductSans-Regular.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wap/common/fonts/Product-Sans/ProductSans-Regular.woff" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wap/common/fonts/Roboto/Roboto-Medium.eot" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wap/common/fonts/Roboto/Roboto-Medium.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wap/common/fonts/Roboto/Roboto-Medium.woff" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wap/common/fonts/Roboto/Roboto-Medium.woff2" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wap/common/fonts/Roboto/Roboto-Regular.eot" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wap/common/fonts/Roboto/Roboto-Regular.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wap/common/fonts/Roboto/Roboto-Regular.woff" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wap/common/fonts/Roboto/Roboto-Regular.woff2" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wap/common/fonts/SF-Pro-Text/v1/sf-pro-display_light.eot" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wap/common/fonts/SF-Pro-Text/v1/sf-pro-display_light.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wap/common/fonts/SF-Pro-Text/v1/sf-pro-display_light.woff" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wap/common/fonts/SF-Pro-Text/v1/sf-pro-display_medium.eot" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wap/common/fonts/SF-Pro-Text/v1/sf-pro-display_medium.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wap/common/fonts/SF-Pro-Text/v1/sf-pro-display_medium.woff" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wap/common/fonts/SF-Pro-Text/v1/sf-pro-text_bold.eot" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wap/common/fonts/SF-Pro-Text/v1/sf-pro-text_bold.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wap/common/fonts/SF-Pro-Text/v1/sf-pro-text_bold.woff" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wap/common/fonts/SF-Pro-Text/v1/sf-pro-text_regular.eot" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wap/common/fonts/SF-Pro-Text/v1/sf-pro-text_regular.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wap/common/fonts/SF-Pro-Text/v1/sf-pro-text_regular.woff" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wap/common/fonts/SF-Pro-Text/v1/sf-pro-text_semibold.eot" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wap/common/fonts/SF-Pro-Text/v1/sf-pro-text_semibold.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wap/common/fonts/SF-Pro-Text/v1/sf-pro-text_semibold.woff" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wap/common/fonts/SanFrancisco/san-francisco-medium.eot" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wap/common/fonts/SanFrancisco/san-francisco-medium.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wap/common/fonts/SanFrancisco/san-francisco-medium.woff" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wap/common/fonts/SanFrancisco/san-francisco-medium.woff2" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wap/common/fonts/SanFrancisco/san-francisco-regular.eot" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wap/common/fonts/SanFrancisco/san-francisco-regular.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wap/common/fonts/SanFrancisco/san-francisco-regular.woff" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wap/common/fonts/SanFrancisco/san-francisco-regular.woff2" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wap/common/fonts/SanFrancisco/san-franciscoregular.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wap/common/images/picNoData.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wap/common/js/layer/skin/default/icon-ext.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wap/common/js/layer/skin/default/icon.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wap/common/js/layer/skin/default/loading-0.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wap/common/js/layer/skin/default/loading-1.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wap/common/js/layer/skin/default/loading-2.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wap/common/js/loading/default/loading-1-bak.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wap/common/js/loading/default/loading-1-bak2.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wap/common/js/loading/default/loading-1.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wap/common/js/loading/default/loading-2.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wap/common/css/font-awesome/css/font-awesome.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wap/common/css/font-awesome/css/font-awesome.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wap/common/css/font-awesome/fonts/fontawesome-webfont.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wap/common/css/font-awesome/less/animated.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wap/common/css/font-awesome/less/bordered-pulled.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wap/common/css/font-awesome/less/core.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wap/common/css/font-awesome/less/fixed-width.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wap/common/css/font-awesome/less/font-awesome.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wap/common/css/font-awesome/less/icons.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wap/common/css/font-awesome/less/larger.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wap/common/css/font-awesome/less/list.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wap/common/css/font-awesome/less/mixins.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wap/common/css/font-awesome/less/path.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wap/common/css/font-awesome/less/rotated-flipped.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wap/common/css/font-awesome/less/screen-reader.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wap/common/css/font-awesome/less/stacked.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wap/common/css/font-awesome/less/variables.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wap/common/css/font-awesome/scss/_animated.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wap/common/css/font-awesome/scss/_bordered-pulled.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wap/common/css/font-awesome/scss/_core.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wap/common/css/font-awesome/scss/_fixed-width.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wap/common/css/font-awesome/scss/_icons.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wap/common/css/font-awesome/scss/_larger.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wap/common/css/font-awesome/scss/_list.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wap/common/css/font-awesome/scss/_mixins.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wap/common/css/font-awesome/scss/_path.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wap/common/css/font-awesome/scss/_rotated-flipped.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wap/common/css/font-awesome/scss/_screen-reader.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wap/common/css/font-awesome/scss/_stacked.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wap/common/css/font-awesome/scss/_variables.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wap/common/css/font-awesome/scss/font-awesome.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wap/common/css/init.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wap/common/css/initWap.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wap/common/css/weui/example.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wap/common/css/weui/weui.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wap/common/css/weui/weui.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wap/common/fonts/Bahnschrift/Bahnschrift.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wap/common/fonts/Bahnschrift/readme.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wap/common/fonts/Din/din-regular-webfont.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wap/common/fonts/PF/pf-medium.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wap/common/fonts/PF/pf-regular.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wap/common/fonts/PF/pf.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wap/common/fonts/Product-Sans/ProductSans-Regular.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wap/common/fonts/Product-Sans/readme.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wap/common/fonts/Roboto/Roboto-Medium.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wap/common/fonts/SanFrancisco/san-francisco-medium.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wap/common/fonts/SanFrancisco/san-francisco-regular.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wap/common/js/AppUtil.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wap/common/js/browser.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wap/common/js/highchart/6.0.3/css/highcharts.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wap/common/js/highchart/6.0.3/css/highcharts.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wap/common/js/highchart/6.0.3/css/js/highcharts-3d.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wap/common/js/highchart/6.0.3/css/js/highcharts-3d.js.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wap/common/js/highchart/6.0.3/css/js/highcharts-3d.src.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wap/common/js/highchart/6.0.3/css/js/highcharts-more.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wap/common/js/highchart/6.0.3/css/js/highcharts-more.js.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wap/common/js/highchart/6.0.3/css/js/highcharts-more.src.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wap/common/js/highchart/6.0.3/css/js/highcharts.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wap/common/js/highchart/6.0.3/css/js/highcharts.js.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wap/common/js/highchart/6.0.3/css/js/highcharts.src.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wap/common/js/highchart/6.0.3/css/js/modules/accessibility.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wap/common/js/highchart/6.0.3/css/js/modules/accessibility.js.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wap/common/js/highchart/6.0.3/css/js/modules/accessibility.src.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wap/common/js/highchart/6.0.3/css/js/modules/annotations.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wap/common/js/highchart/6.0.3/css/js/modules/annotations.js.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wap/common/js/highchart/6.0.3/css/js/modules/annotations.src.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wap/common/js/highchart/6.0.3/css/js/modules/boost-canvas.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wap/common/js/highchart/6.0.3/css/js/modules/boost-canvas.js.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wap/common/js/highchart/6.0.3/css/js/modules/boost-canvas.src.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wap/common/js/highchart/6.0.3/css/js/modules/boost.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wap/common/js/highchart/6.0.3/css/js/modules/boost.js.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wap/common/js/highchart/6.0.3/css/js/modules/boost.src.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wap/common/js/highchart/6.0.3/css/js/modules/broken-axis.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wap/common/js/highchart/6.0.3/css/js/modules/broken-axis.js.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wap/common/js/highchart/6.0.3/css/js/modules/broken-axis.src.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wap/common/js/highchart/6.0.3/css/js/modules/bullet.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wap/common/js/highchart/6.0.3/css/js/modules/bullet.js.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wap/common/js/highchart/6.0.3/css/js/modules/bullet.src.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wap/common/js/highchart/6.0.3/css/js/modules/data.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wap/common/js/highchart/6.0.3/css/js/modules/data.js.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wap/common/js/highchart/6.0.3/css/js/modules/data.src.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wap/common/js/highchart/6.0.3/css/js/modules/drag-panes.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wap/common/js/highchart/6.0.3/css/js/modules/drag-panes.js.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wap/common/js/highchart/6.0.3/css/js/modules/drag-panes.src.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wap/common/js/highchart/6.0.3/css/js/modules/drilldown.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wap/common/js/highchart/6.0.3/css/js/modules/drilldown.js.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wap/common/js/highchart/6.0.3/css/js/modules/drilldown.src.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wap/common/js/highchart/6.0.3/css/js/modules/export-data.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wap/common/js/highchart/6.0.3/css/js/modules/export-data.js.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wap/common/js/highchart/6.0.3/css/js/modules/export-data.src.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wap/common/js/highchart/6.0.3/css/js/modules/exporting.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wap/common/js/highchart/6.0.3/css/js/modules/exporting.js.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wap/common/js/highchart/6.0.3/css/js/modules/exporting.src.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wap/common/js/highchart/6.0.3/css/js/modules/funnel.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wap/common/js/highchart/6.0.3/css/js/modules/funnel.js.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wap/common/js/highchart/6.0.3/css/js/modules/funnel.src.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wap/common/js/highchart/6.0.3/css/js/modules/gantt.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wap/common/js/highchart/6.0.3/css/js/modules/gantt.js.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wap/common/js/highchart/6.0.3/css/js/modules/gantt.src.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wap/common/js/highchart/6.0.3/css/js/modules/grid-axis.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wap/common/js/highchart/6.0.3/css/js/modules/grid-axis.js.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wap/common/js/highchart/6.0.3/css/js/modules/grid-axis.src.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wap/common/js/highchart/6.0.3/css/js/modules/heatmap.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wap/common/js/highchart/6.0.3/css/js/modules/heatmap.js.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wap/common/js/highchart/6.0.3/css/js/modules/heatmap.src.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wap/common/js/highchart/6.0.3/css/js/modules/histogram-bellcurve.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wap/common/js/highchart/6.0.3/css/js/modules/histogram-bellcurve.js.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wap/common/js/highchart/6.0.3/css/js/modules/histogram-bellcurve.src.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wap/common/js/highchart/6.0.3/css/js/modules/item-series.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wap/common/js/highchart/6.0.3/css/js/modules/item-series.js.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wap/common/js/highchart/6.0.3/css/js/modules/item-series.src.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wap/common/js/highchart/6.0.3/css/js/modules/no-data-to-display.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wap/common/js/highchart/6.0.3/css/js/modules/no-data-to-display.js.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wap/common/js/highchart/6.0.3/css/js/modules/no-data-to-display.src.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wap/common/js/highchart/6.0.3/css/js/modules/offline-exporting.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wap/common/js/highchart/6.0.3/css/js/modules/offline-exporting.js.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wap/common/js/highchart/6.0.3/css/js/modules/offline-exporting.src.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wap/common/js/highchart/6.0.3/css/js/modules/oldie.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wap/common/js/highchart/6.0.3/css/js/modules/oldie.js.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wap/common/js/highchart/6.0.3/css/js/modules/oldie.src.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wap/common/js/highchart/6.0.3/css/js/modules/overlapping-datalabels.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wap/common/js/highchart/6.0.3/css/js/modules/overlapping-datalabels.js.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wap/common/js/highchart/6.0.3/css/js/modules/overlapping-datalabels.src.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wap/common/js/highchart/6.0.3/css/js/modules/parallel-coordinates.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wap/common/js/highchart/6.0.3/css/js/modules/parallel-coordinates.js.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wap/common/js/highchart/6.0.3/css/js/modules/parallel-coordinates.src.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wap/common/js/highchart/6.0.3/css/js/modules/pareto.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wap/common/js/highchart/6.0.3/css/js/modules/pareto.js.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wap/common/js/highchart/6.0.3/css/js/modules/pareto.src.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wap/common/js/highchart/6.0.3/css/js/modules/sankey.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wap/common/js/highchart/6.0.3/css/js/modules/sankey.js.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wap/common/js/highchart/6.0.3/css/js/modules/sankey.src.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wap/common/js/highchart/6.0.3/css/js/modules/series-label.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wap/common/js/highchart/6.0.3/css/js/modules/series-label.js.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wap/common/js/highchart/6.0.3/css/js/modules/series-label.src.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wap/common/js/highchart/6.0.3/css/js/modules/solid-gauge.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wap/common/js/highchart/6.0.3/css/js/modules/solid-gauge.js.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wap/common/js/highchart/6.0.3/css/js/modules/solid-gauge.src.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wap/common/js/highchart/6.0.3/css/js/modules/static-scale.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wap/common/js/highchart/6.0.3/css/js/modules/static-scale.js.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wap/common/js/highchart/6.0.3/css/js/modules/static-scale.src.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wap/common/js/highchart/6.0.3/css/js/modules/stock.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wap/common/js/highchart/6.0.3/css/js/modules/stock.js.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wap/common/js/highchart/6.0.3/css/js/modules/stock.src.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wap/common/js/highchart/6.0.3/css/js/modules/streamgraph.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wap/common/js/highchart/6.0.3/css/js/modules/streamgraph.js.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wap/common/js/highchart/6.0.3/css/js/modules/streamgraph.src.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wap/common/js/highchart/6.0.3/css/js/modules/sunburst.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wap/common/js/highchart/6.0.3/css/js/modules/sunburst.js.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wap/common/js/highchart/6.0.3/css/js/modules/sunburst.src.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wap/common/js/highchart/6.0.3/css/js/modules/tilemap.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wap/common/js/highchart/6.0.3/css/js/modules/tilemap.js.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wap/common/js/highchart/6.0.3/css/js/modules/tilemap.src.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wap/common/js/highchart/6.0.3/css/js/modules/treemap.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wap/common/js/highchart/6.0.3/css/js/modules/treemap.js.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wap/common/js/highchart/6.0.3/css/js/modules/treemap.src.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wap/common/js/highchart/6.0.3/css/js/modules/variable-pie.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wap/common/js/highchart/6.0.3/css/js/modules/variable-pie.js.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wap/common/js/highchart/6.0.3/css/js/modules/variable-pie.src.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wap/common/js/highchart/6.0.3/css/js/modules/variwide.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wap/common/js/highchart/6.0.3/css/js/modules/variwide.js.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wap/common/js/highchart/6.0.3/css/js/modules/variwide.src.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wap/common/js/highchart/6.0.3/css/js/modules/vector.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wap/common/js/highchart/6.0.3/css/js/modules/vector.js.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wap/common/js/highchart/6.0.3/css/js/modules/vector.src.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wap/common/js/highchart/6.0.3/css/js/modules/windbarb.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wap/common/js/highchart/6.0.3/css/js/modules/windbarb.js.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wap/common/js/highchart/6.0.3/css/js/modules/windbarb.src.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wap/common/js/highchart/6.0.3/css/js/modules/wordcloud.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wap/common/js/highchart/6.0.3/css/js/modules/wordcloud.js.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wap/common/js/highchart/6.0.3/css/js/modules/wordcloud.src.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wap/common/js/highchart/6.0.3/css/js/modules/xrange.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wap/common/js/highchart/6.0.3/css/js/modules/xrange.js.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wap/common/js/highchart/6.0.3/css/js/modules/xrange.src.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wap/common/js/highchart/6.0.3/css/js/themes/avocado.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wap/common/js/highchart/6.0.3/css/js/themes/avocado.js.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wap/common/js/highchart/6.0.3/css/js/themes/avocado.src.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wap/common/js/highchart/6.0.3/css/js/themes/dark-blue.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wap/common/js/highchart/6.0.3/css/js/themes/dark-blue.js.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wap/common/js/highchart/6.0.3/css/js/themes/dark-blue.src.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wap/common/js/highchart/6.0.3/css/js/themes/dark-green.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wap/common/js/highchart/6.0.3/css/js/themes/dark-green.js.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wap/common/js/highchart/6.0.3/css/js/themes/dark-green.src.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wap/common/js/highchart/6.0.3/css/js/themes/dark-unica.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wap/common/js/highchart/6.0.3/css/js/themes/dark-unica.js.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wap/common/js/highchart/6.0.3/css/js/themes/dark-unica.src.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wap/common/js/highchart/6.0.3/css/js/themes/gray.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wap/common/js/highchart/6.0.3/css/js/themes/gray.js.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wap/common/js/highchart/6.0.3/css/js/themes/gray.src.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wap/common/js/highchart/6.0.3/css/js/themes/grid-light.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wap/common/js/highchart/6.0.3/css/js/themes/grid-light.js.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wap/common/js/highchart/6.0.3/css/js/themes/grid-light.src.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wap/common/js/highchart/6.0.3/css/js/themes/grid.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wap/common/js/highchart/6.0.3/css/js/themes/grid.js.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wap/common/js/highchart/6.0.3/css/js/themes/grid.src.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wap/common/js/highchart/6.0.3/css/js/themes/sand-signika.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wap/common/js/highchart/6.0.3/css/js/themes/sand-signika.js.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wap/common/js/highchart/6.0.3/css/js/themes/sand-signika.src.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wap/common/js/highchart/6.0.3/css/js/themes/skies.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wap/common/js/highchart/6.0.3/css/js/themes/skies.js.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wap/common/js/highchart/6.0.3/css/js/themes/skies.src.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wap/common/js/highchart/6.0.3/css/js/themes/sunset.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wap/common/js/highchart/6.0.3/css/js/themes/sunset.js.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wap/common/js/highchart/6.0.3/css/js/themes/sunset.src.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wap/common/js/highchart/6.0.3/highcharts-3d.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wap/common/js/highchart/6.0.3/highcharts-3d.js.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wap/common/js/highchart/6.0.3/highcharts-3d.src.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wap/common/js/highchart/6.0.3/highcharts-more.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wap/common/js/highchart/6.0.3/highcharts-more.js.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wap/common/js/highchart/6.0.3/highcharts-more.src.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wap/common/js/highchart/6.0.3/highcharts.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wap/common/js/highchart/6.0.3/highcharts.js.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wap/common/js/highchart/6.0.3/highcharts.src.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wap/common/js/highchart/6.0.3/lib/canvg.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wap/common/js/highchart/6.0.3/lib/canvg.src.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wap/common/js/highchart/6.0.3/lib/jspdf.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wap/common/js/highchart/6.0.3/lib/jspdf.src.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wap/common/js/highchart/6.0.3/lib/rgbcolor.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wap/common/js/highchart/6.0.3/lib/rgbcolor.src.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wap/common/js/highchart/6.0.3/lib/svg2pdf.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wap/common/js/highchart/6.0.3/lib/svg2pdf.src.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wap/common/js/highchart/6.0.3/modules/accessibility.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wap/common/js/highchart/6.0.3/modules/accessibility.js.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wap/common/js/highchart/6.0.3/modules/accessibility.src.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wap/common/js/highchart/6.0.3/modules/annotations.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wap/common/js/highchart/6.0.3/modules/annotations.js.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wap/common/js/highchart/6.0.3/modules/annotations.src.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wap/common/js/highchart/6.0.3/modules/boost-canvas.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wap/common/js/highchart/6.0.3/modules/boost-canvas.js.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wap/common/js/highchart/6.0.3/modules/boost-canvas.src.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wap/common/js/highchart/6.0.3/modules/boost.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wap/common/js/highchart/6.0.3/modules/boost.js.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wap/common/js/highchart/6.0.3/modules/boost.src.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wap/common/js/highchart/6.0.3/modules/broken-axis.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wap/common/js/highchart/6.0.3/modules/broken-axis.js.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wap/common/js/highchart/6.0.3/modules/broken-axis.src.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wap/common/js/highchart/6.0.3/modules/bullet.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wap/common/js/highchart/6.0.3/modules/bullet.js.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wap/common/js/highchart/6.0.3/modules/bullet.src.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wap/common/js/highchart/6.0.3/modules/data.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wap/common/js/highchart/6.0.3/modules/data.js.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wap/common/js/highchart/6.0.3/modules/data.src.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wap/common/js/highchart/6.0.3/modules/drag-panes.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wap/common/js/highchart/6.0.3/modules/drag-panes.js.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wap/common/js/highchart/6.0.3/modules/drag-panes.src.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wap/common/js/highchart/6.0.3/modules/drilldown.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wap/common/js/highchart/6.0.3/modules/drilldown.js.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wap/common/js/highchart/6.0.3/modules/drilldown.src.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wap/common/js/highchart/6.0.3/modules/export-data.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wap/common/js/highchart/6.0.3/modules/export-data.js.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wap/common/js/highchart/6.0.3/modules/export-data.src.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wap/common/js/highchart/6.0.3/modules/exporting.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wap/common/js/highchart/6.0.3/modules/exporting.js.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wap/common/js/highchart/6.0.3/modules/exporting.src.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wap/common/js/highchart/6.0.3/modules/funnel.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wap/common/js/highchart/6.0.3/modules/funnel.js.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wap/common/js/highchart/6.0.3/modules/funnel.src.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wap/common/js/highchart/6.0.3/modules/gantt.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wap/common/js/highchart/6.0.3/modules/gantt.js.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wap/common/js/highchart/6.0.3/modules/gantt.src.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wap/common/js/highchart/6.0.3/modules/grid-axis.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wap/common/js/highchart/6.0.3/modules/grid-axis.js.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wap/common/js/highchart/6.0.3/modules/grid-axis.src.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wap/common/js/highchart/6.0.3/modules/heatmap.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wap/common/js/highchart/6.0.3/modules/heatmap.js.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wap/common/js/highchart/6.0.3/modules/heatmap.src.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wap/common/js/highchart/6.0.3/modules/histogram-bellcurve.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wap/common/js/highchart/6.0.3/modules/histogram-bellcurve.js.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wap/common/js/highchart/6.0.3/modules/histogram-bellcurve.src.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wap/common/js/highchart/6.0.3/modules/item-series.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wap/common/js/highchart/6.0.3/modules/item-series.js.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wap/common/js/highchart/6.0.3/modules/item-series.src.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wap/common/js/highchart/6.0.3/modules/no-data-to-display.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wap/common/js/highchart/6.0.3/modules/no-data-to-display.js.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wap/common/js/highchart/6.0.3/modules/no-data-to-display.src.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wap/common/js/highchart/6.0.3/modules/offline-exporting.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wap/common/js/highchart/6.0.3/modules/offline-exporting.js.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wap/common/js/highchart/6.0.3/modules/offline-exporting.src.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wap/common/js/highchart/6.0.3/modules/oldie.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wap/common/js/highchart/6.0.3/modules/oldie.js.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wap/common/js/highchart/6.0.3/modules/oldie.src.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wap/common/js/highchart/6.0.3/modules/overlapping-datalabels.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wap/common/js/highchart/6.0.3/modules/overlapping-datalabels.js.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wap/common/js/highchart/6.0.3/modules/overlapping-datalabels.src.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wap/common/js/highchart/6.0.3/modules/parallel-coordinates.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wap/common/js/highchart/6.0.3/modules/parallel-coordinates.js.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wap/common/js/highchart/6.0.3/modules/parallel-coordinates.src.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wap/common/js/highchart/6.0.3/modules/pareto.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wap/common/js/highchart/6.0.3/modules/pareto.js.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wap/common/js/highchart/6.0.3/modules/pareto.src.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wap/common/js/highchart/6.0.3/modules/sankey.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wap/common/js/highchart/6.0.3/modules/sankey.js.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wap/common/js/highchart/6.0.3/modules/sankey.src.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wap/common/js/highchart/6.0.3/modules/series-label.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wap/common/js/highchart/6.0.3/modules/series-label.js.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wap/common/js/highchart/6.0.3/modules/series-label.src.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wap/common/js/highchart/6.0.3/modules/solid-gauge.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wap/common/js/highchart/6.0.3/modules/solid-gauge.js.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wap/common/js/highchart/6.0.3/modules/solid-gauge.src.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wap/common/js/highchart/6.0.3/modules/static-scale.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wap/common/js/highchart/6.0.3/modules/static-scale.js.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wap/common/js/highchart/6.0.3/modules/static-scale.src.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wap/common/js/highchart/6.0.3/modules/stock.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wap/common/js/highchart/6.0.3/modules/stock.js.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wap/common/js/highchart/6.0.3/modules/stock.src.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wap/common/js/highchart/6.0.3/modules/streamgraph.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wap/common/js/highchart/6.0.3/modules/streamgraph.js.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wap/common/js/highchart/6.0.3/modules/streamgraph.src.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wap/common/js/highchart/6.0.3/modules/sunburst.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wap/common/js/highchart/6.0.3/modules/sunburst.js.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wap/common/js/highchart/6.0.3/modules/sunburst.src.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wap/common/js/highchart/6.0.3/modules/tilemap.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wap/common/js/highchart/6.0.3/modules/tilemap.js.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wap/common/js/highchart/6.0.3/modules/tilemap.src.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wap/common/js/highchart/6.0.3/modules/treemap.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wap/common/js/highchart/6.0.3/modules/treemap.js.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wap/common/js/highchart/6.0.3/modules/treemap.src.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wap/common/js/highchart/6.0.3/modules/variable-pie.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wap/common/js/highchart/6.0.3/modules/variable-pie.js.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wap/common/js/highchart/6.0.3/modules/variable-pie.src.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wap/common/js/highchart/6.0.3/modules/variwide.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wap/common/js/highchart/6.0.3/modules/variwide.js.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wap/common/js/highchart/6.0.3/modules/variwide.src.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wap/common/js/highchart/6.0.3/modules/vector.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wap/common/js/highchart/6.0.3/modules/vector.js.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wap/common/js/highchart/6.0.3/modules/vector.src.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wap/common/js/highchart/6.0.3/modules/windbarb.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wap/common/js/highchart/6.0.3/modules/windbarb.js.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wap/common/js/highchart/6.0.3/modules/windbarb.src.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wap/common/js/highchart/6.0.3/modules/wordcloud.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wap/common/js/highchart/6.0.3/modules/wordcloud.js.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wap/common/js/highchart/6.0.3/modules/wordcloud.src.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wap/common/js/highchart/6.0.3/modules/xrange.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wap/common/js/highchart/6.0.3/modules/xrange.js.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wap/common/js/highchart/6.0.3/modules/xrange.src.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wap/common/js/highchart/6.0.3/readme.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wap/common/js/highchart/6.0.3/themes/avocado.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wap/common/js/highchart/6.0.3/themes/avocado.js.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wap/common/js/highchart/6.0.3/themes/avocado.src.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wap/common/js/highchart/6.0.3/themes/dark-blue.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wap/common/js/highchart/6.0.3/themes/dark-blue.js.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wap/common/js/highchart/6.0.3/themes/dark-blue.src.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wap/common/js/highchart/6.0.3/themes/dark-green.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wap/common/js/highchart/6.0.3/themes/dark-green.js.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wap/common/js/highchart/6.0.3/themes/dark-green.src.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wap/common/js/highchart/6.0.3/themes/dark-unica.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wap/common/js/highchart/6.0.3/themes/dark-unica.js.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wap/common/js/highchart/6.0.3/themes/dark-unica.src.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wap/common/js/highchart/6.0.3/themes/gray.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wap/common/js/highchart/6.0.3/themes/gray.js.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wap/common/js/highchart/6.0.3/themes/gray.src.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wap/common/js/highchart/6.0.3/themes/grid-light.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wap/common/js/highchart/6.0.3/themes/grid-light.js.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wap/common/js/highchart/6.0.3/themes/grid-light.src.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wap/common/js/highchart/6.0.3/themes/grid.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wap/common/js/highchart/6.0.3/themes/grid.js.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wap/common/js/highchart/6.0.3/themes/grid.src.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wap/common/js/highchart/6.0.3/themes/sand-signika.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wap/common/js/highchart/6.0.3/themes/sand-signika.js.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wap/common/js/highchart/6.0.3/themes/sand-signika.src.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wap/common/js/highchart/6.0.3/themes/skies.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wap/common/js/highchart/6.0.3/themes/skies.js.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wap/common/js/highchart/6.0.3/themes/skies.src.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wap/common/js/highchart/6.0.3/themes/sunset.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wap/common/js/highchart/6.0.3/themes/sunset.js.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wap/common/js/highchart/6.0.3/themes/sunset.src.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wap/common/js/highchart/css/highcharts.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wap/common/js/highchart/highcharts-3d.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wap/common/js/highchart/highcharts-3d.src.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wap/common/js/highchart/highcharts-more.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wap/common/js/highchart/highcharts-more.src.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wap/common/js/highchart/highcharts.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wap/common/js/highchart/highcharts.src.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wap/common/js/highchart/js/highcharts-3d.js.svntmp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wap/common/js/highchart/js/highcharts-3d.src.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wap/common/js/highchart/js/highcharts-more.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wap/common/js/highchart/js/highcharts-more.src.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wap/common/js/highchart/js/highcharts.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wap/common/js/highchart/js/highcharts.src.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wap/common/js/highchart/js/modules/accessibility.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wap/common/js/highchart/js/modules/accessibility.src.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wap/common/js/highchart/js/modules/annotations.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wap/common/js/highchart/js/modules/annotations.src.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wap/common/js/highchart/js/modules/boost.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wap/common/js/highchart/js/modules/boost.src.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wap/common/js/highchart/js/modules/broken-axis.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wap/common/js/highchart/js/modules/broken-axis.src.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wap/common/js/highchart/js/modules/data.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wap/common/js/highchart/js/modules/data.src.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wap/common/js/highchart/js/modules/drilldown.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wap/common/js/highchart/js/modules/drilldown.src.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wap/common/js/highchart/js/modules/exporting.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wap/common/js/highchart/js/modules/exporting.src.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wap/common/js/highchart/js/modules/funnel.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wap/common/js/highchart/js/modules/funnel.src.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wap/common/js/highchart/js/modules/gantt.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wap/common/js/highchart/js/modules/gantt.src.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wap/common/js/highchart/js/modules/grid-axis.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wap/common/js/highchart/js/modules/grid-axis.src.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wap/common/js/highchart/js/modules/heatmap.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wap/common/js/highchart/js/modules/heatmap.src.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wap/common/js/highchart/js/modules/no-data-to-display.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wap/common/js/highchart/js/modules/no-data-to-display.src.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wap/common/js/highchart/js/modules/offline-exporting.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wap/common/js/highchart/js/modules/offline-exporting.src.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wap/common/js/highchart/js/modules/overlapping-datalabels.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wap/common/js/highchart/js/modules/overlapping-datalabels.src.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wap/common/js/highchart/js/modules/series-label.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wap/common/js/highchart/js/modules/series-label.src.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wap/common/js/highchart/js/modules/solid-gauge.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wap/common/js/highchart/js/modules/solid-gauge.src.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wap/common/js/highchart/js/modules/stock.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wap/common/js/highchart/js/modules/stock.src.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wap/common/js/highchart/js/modules/treemap.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wap/common/js/highchart/js/modules/treemap.src.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wap/common/js/highchart/js/modules/xrange-series.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wap/common/js/highchart/js/modules/xrange-series.src.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wap/common/js/highchart/js/themes/dark-blue.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wap/common/js/highchart/js/themes/dark-green.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wap/common/js/highchart/js/themes/dark-unica.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wap/common/js/highchart/js/themes/gray.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wap/common/js/highchart/js/themes/grid-light.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wap/common/js/highchart/js/themes/grid.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wap/common/js/highchart/js/themes/sand-signika.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wap/common/js/highchart/js/themes/skies.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wap/common/js/highchart/lib/canvg.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wap/common/js/highchart/lib/canvg.src.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wap/common/js/highchart/lib/jspdf.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wap/common/js/highchart/lib/jspdf.src.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wap/common/js/highchart/lib/svg2pdf.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wap/common/js/highchart/lib/svg2pdf.src.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wap/common/js/highchart/modules/accessibility.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wap/common/js/highchart/modules/accessibility.src.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wap/common/js/highchart/modules/annotations.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wap/common/js/highchart/modules/annotations.src.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wap/common/js/highchart/modules/boost.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wap/common/js/highchart/modules/boost.src.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wap/common/js/highchart/modules/broken-axis.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wap/common/js/highchart/modules/broken-axis.src.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wap/common/js/highchart/modules/data.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wap/common/js/highchart/modules/data.src.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wap/common/js/highchart/modules/drilldown.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wap/common/js/highchart/modules/drilldown.src.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wap/common/js/highchart/modules/exporting.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wap/common/js/highchart/modules/exporting.src.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wap/common/js/highchart/modules/funnel.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wap/common/js/highchart/modules/funnel.src.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wap/common/js/highchart/modules/gantt.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wap/common/js/highchart/modules/gantt.src.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wap/common/js/highchart/modules/grid-axis.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wap/common/js/highchart/modules/grid-axis.src.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wap/common/js/highchart/modules/heatmap.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wap/common/js/highchart/modules/heatmap.src.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wap/common/js/highchart/modules/no-data-to-display.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wap/common/js/highchart/modules/no-data-to-display.src.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wap/common/js/highchart/modules/offline-exporting.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wap/common/js/highchart/modules/offline-exporting.src.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wap/common/js/highchart/modules/overlapping-datalabels.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wap/common/js/highchart/modules/overlapping-datalabels.src.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wap/common/js/highchart/modules/series-label.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wap/common/js/highchart/modules/series-label.src.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wap/common/js/highchart/modules/solid-gauge.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wap/common/js/highchart/modules/solid-gauge.src.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wap/common/js/highchart/modules/stock.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wap/common/js/highchart/modules/stock.src.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wap/common/js/highchart/modules/treemap.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wap/common/js/highchart/modules/treemap.src.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wap/common/js/highchart/modules/xrange-series.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wap/common/js/highchart/modules/xrange-series.src.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wap/common/js/highchart/readme.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wap/common/js/highchart/themes/dark-blue.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wap/common/js/highchart/themes/dark-green.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wap/common/js/highchart/themes/dark-unica.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wap/common/js/highchart/themes/gray.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wap/common/js/highchart/themes/grid-light.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wap/common/js/highchart/themes/grid.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wap/common/js/highchart/themes/sand-signika.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wap/common/js/highchart/themes/skies.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wap/common/js/highstock/highstock.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wap/common/js/jquery-3.0.0.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wap/common/js/jquery-3.2.1.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wap/common/js/layer/layer.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wap/common/js/layer/mobile/layer.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wap/common/js/layer/mobile/need/layer.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wap/common/js/layer/skin/default/layer.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wap/common/js/loading/default/loading.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wap/common/js/loading/loading.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wap/common/js/resize.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wap/common/js/util.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wap/css/accountDiagnosis/accountDiagnosis.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wap/css/public.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wap/js/accountDiagnosis/accountDiagnosis.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wap/view/accountDiagnosis/accountDiagnosis.html" />
+    <list default="true" id="268b3b2c-1024-4761-9189-f1fe52b3bcc1" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wap/css/accountDiagnosis/accountReport.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wap/js/accountDiagnosis/accountReport.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wap/view/accountDiagnosis/accountReport.html" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wap/common/css/initWap.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wap/common/css/weui/example.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wap/common/css/weui/weui.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wap/common/css/weui/weui.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wap/common/js/AppUtil.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wap/common/js/browser.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wap/common/js/highstock/highstock.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wap/common/js/jquery-3.0.0.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wap/common/js/layer/layer.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wap/common/js/layer/mobile/layer.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wap/common/js/layer/mobile/need/layer.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wap/common/js/layer/skin/default/icon-ext.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wap/common/js/layer/skin/default/icon.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wap/common/js/layer/skin/default/layer.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wap/common/js/layer/skin/default/loading-0.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wap/common/js/layer/skin/default/loading-1.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wap/common/js/layer/skin/default/loading-2.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wap/common/js/loading/default/loading-1-bak.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wap/common/js/loading/default/loading-1-bak2.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wap/common/js/loading/default/loading-1.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wap/common/js/loading/default/loading-2.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wap/common/js/loading/default/loading.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wap/common/js/loading/loading.js" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wap/css/accountDiagnosis/accountDiagnosis.css" afterPath="$PROJECT_DIR$/wap/css/accountDiagnosis/accountDiagnosis.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wap/js/accountDiagnosis/accountDiagnosis.js" afterPath="$PROJECT_DIR$/wap/js/accountDiagnosis/accountDiagnosis.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wap/view/accountDiagnosis/accountDiagnosis.html" afterPath="$PROJECT_DIR$/wap/view/accountDiagnosis/accountDiagnosis.html" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -580,119 +45,72 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="test.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test.html">
+      <file leaf-file-name="accountReport.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/wap/view/accountDiagnosis/accountReport.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="47" column="42" lean-forward="false" selection-start-line="47" selection-start-column="18" selection-end-line="47" selection-end-column="42" />
+            <state relative-caret-position="320">
+              <caret line="56" column="25" lean-forward="false" selection-start-line="56" selection-start-column="16" selection-end-line="56" selection-end-column="25" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="accountReport.css" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/wap/css/accountDiagnosis/accountReport.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="531">
+              <caret line="291" column="34" lean-forward="true" selection-start-line="291" selection-start-column="34" selection-end-line="291" selection-end-column="34" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="accountReport.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/wap/js/accountDiagnosis/accountReport.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-10">
+              <caret line="119" column="13" lean-forward="false" selection-start-line="119" selection-start-column="13" selection-end-line="119" selection-end-column="13" />
               <folding>
-                <element signature="n#div#0;n#div#2;n#div#0;n#main#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <marker date="1530259992154" expanded="true" signature="3759:4107" ph="..." />
+                <marker date="1530259992154" expanded="true" signature="3786:3820" ph="..." />
+                <marker date="1530259992154" expanded="true" signature="3786:3859" ph="..." />
+                <marker date="1530259992154" expanded="true" signature="3886:3922" ph="..." />
+                <marker date="1530259992154" expanded="true" signature="3886:3972" ph="..." />
+                <marker date="1530259992154" expanded="true" signature="3999:4034" ph="..." />
+                <marker date="1530259992154" expanded="true" signature="3999:4078" ph="..." />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="test.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/css/test.css">
+      <file leaf-file-name="accountDiagnosis.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/wap/js/accountDiagnosis/accountDiagnosis.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="330">
-              <caret line="15" column="16" lean-forward="false" selection-start-line="15" selection-start-column="16" selection-end-line="15" selection-end-column="16" />
+            <state relative-caret-position="826">
+              <caret line="98" column="0" lean-forward="true" selection-start-line="46" selection-start-column="0" selection-end-line="98" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="test.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/js/test.js">
+      <file leaf-file-name="accountDiagnosis.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/wap/css/accountDiagnosis/accountDiagnosis.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="22">
-              <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+            <state relative-caret-position="198">
+              <caret line="30" column="0" lean-forward="false" selection-start-line="30" selection-start-column="0" selection-end-line="65" selection-end-column="1" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="css3.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/css/css3.css">
+      <file leaf-file-name="accountDiagnosis.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/wap/view/accountDiagnosis/accountDiagnosis.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="484">
-              <caret line="22" column="16" lean-forward="false" selection-start-line="22" selection-start-column="16" selection-end-line="22" selection-end-column="16" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="css3.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/css3.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="308">
-              <caret line="52" column="8" lean-forward="false" selection-start-line="52" selection-start-column="8" selection-end-line="52" selection-end-column="8" />
+            <state relative-caret-position="506">
+              <caret line="30" column="6" lean-forward="false" selection-start-line="30" selection-start-column="6" selection-end-line="30" selection-end-column="39" />
               <folding>
-                <element signature="n#div#0;n#main#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-                <element signature="n#div#0;n#div#0;n#div#1;n#div#0;n#main#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-                <element signature="n#div#1;n#main#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-                <element signature="n#div#2;n#main#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="resize.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/js/resize.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="88">
-              <caret line="4" column="29" lean-forward="false" selection-start-line="4" selection-start-column="29" selection-end-line="4" selection-end-column="29" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="hhui.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/css/hhui.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="9328">
-              <caret line="424" column="14" lean-forward="false" selection-start-line="424" selection-start-column="14" selection-end-line="424" selection-end-column="14" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="hhui.js" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/js/hhui.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="345">
-              <caret line="414" column="19" lean-forward="true" selection-start-line="414" selection-start-column="19" selection-end-line="414" selection-end-column="19" />
-              <folding>
-                <element signature="e#142#231#0" expanded="false" />
-                <element signature="e#277#1530#0" expanded="false" />
-                <element signature="e#1639#2077#0" expanded="false" />
-                <element signature="e#2082#2169#0" expanded="false" />
-                <element signature="e#2198#2545#0" expanded="false" />
-                <element signature="e#2550#2567#0" expanded="false" />
-                <element signature="e#2591#2705#0" expanded="false" />
-                <element signature="e#2879#3775#0" expanded="false" />
-                <element signature="e#3857#3910#0" expanded="false" />
-                <element signature="e#3960#4134#0" expanded="false" />
-                <element signature="e#5879#8218#0" expanded="false" />
-                <element signature="e#8776#9089#0" expanded="false" />
-                <element signature="e#9235#9450#0" expanded="false" />
-                <element signature="e#9655#10158#0" expanded="false" />
-                <element signature="e#10343#11004#0" expanded="false" />
-                <element signature="e#11505#11828#0" expanded="false" />
-                <element signature="e#11907#12209#0" expanded="false" />
-                <element signature="e#12494#12626#0" expanded="false" />
-                <element signature="e#12923#13079#0" expanded="false" />
-                <element signature="e#13288#14301#0" expanded="false" />
-                <element signature="e#14358#14401#0" expanded="false" />
-                <element signature="e#14450#14611#0" expanded="false" />
-                <element signature="e#14726#15018#0" expanded="false" />
-                <element signature="e#15120#15764#0" expanded="false" />
-                <marker date="1528769261080" expanded="true" signature="597:970" ph="..." />
-                <marker date="1528769261080" expanded="true" signature="641:949" ph="..." />
-                <marker date="1528769261080" expanded="true" signature="765:862" ph="..." />
-                <marker date="1528769261080" expanded="true" signature="2374:2506" ph="..." />
-                <marker date="1528769261080" expanded="true" signature="3074:3403" ph="..." />
-                <marker date="1528769261080" expanded="true" signature="3116:3380" ph="..." />
+                <element signature="n#style#0;n#div#0;n#div#1;n#div#0;n#div#1;n#div#1;n#div#2;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#2;n#div#3;n#div#1;n#div#1;n#div#1;n#div#0;n#div#1;n#div#1;n#div#2;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -718,10 +136,15 @@
       <find>animation_box</find>
       <find>pull_refresh_update_time</find>
       <find>border_radius_box</find>
+      <find />
+      <find>pie_chart_box</find>
+      <find>pieChart</find>
+      <find>asset_box</find>
     </findStrings>
     <replaceStrings>
       <replace />
       <replace>3388ff</replace>
+      <replace />
     </replaceStrings>
   </component>
   <component name="Git.Settings">
@@ -740,6 +163,12 @@
         <option value="$PROJECT_DIR$/css/css3.css" />
         <option value="$PROJECT_DIR$/css/hhui.css" />
         <option value="$PROJECT_DIR$/js/hhui.js" />
+        <option value="$PROJECT_DIR$/wap/view/accountDiagnosis/accountDiagnosis.html" />
+        <option value="$PROJECT_DIR$/wap/css/accountDiagnosis/accountDiagnosis.css" />
+        <option value="$PROJECT_DIR$/wap/js/accountDiagnosis/accountDiagnosis.js" />
+        <option value="$PROJECT_DIR$/wap/view/accountDiagnosis/accountReport.html" />
+        <option value="$PROJECT_DIR$/wap/js/accountDiagnosis/accountReport.js" />
+        <option value="$PROJECT_DIR$/wap/css/accountDiagnosis/accountReport.css" />
       </list>
     </option>
   </component>
@@ -757,10 +186,9 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="824" />
-    <option name="y" value="35" />
+    <option name="x" value="953" />
     <option name="width" value="974" />
-    <option name="height" value="974" />
+    <option name="height" value="1047" />
   </component>
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
@@ -807,7 +235,27 @@
               <item name="person-practice" type="462c0819:PsiDirectoryNode" />
               <item name="wap" type="462c0819:PsiDirectoryNode" />
               <item name="common" type="462c0819:PsiDirectoryNode" />
+              <item name="fonts" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="person-practice" type="b2602c69:ProjectViewProjectNode" />
+              <item name="person-practice" type="462c0819:PsiDirectoryNode" />
+              <item name="wap" type="462c0819:PsiDirectoryNode" />
+              <item name="common" type="462c0819:PsiDirectoryNode" />
               <item name="js" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="person-practice" type="b2602c69:ProjectViewProjectNode" />
+              <item name="person-practice" type="462c0819:PsiDirectoryNode" />
+              <item name="wap" type="462c0819:PsiDirectoryNode" />
+              <item name="css" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="person-practice" type="b2602c69:ProjectViewProjectNode" />
+              <item name="person-practice" type="462c0819:PsiDirectoryNode" />
+              <item name="wap" type="462c0819:PsiDirectoryNode" />
+              <item name="css" type="462c0819:PsiDirectoryNode" />
+              <item name="accountDiagnosis" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="person-practice" type="b2602c69:ProjectViewProjectNode" />
@@ -900,7 +348,7 @@
       <workItem from="1528073159494" duration="4555000" />
       <workItem from="1528418130896" duration="3905000" />
       <workItem from="1528768971125" duration="922000" />
-      <workItem from="1530182475850" duration="692000" />
+      <workItem from="1530182475850" duration="17828000" />
     </task>
     <task id="LOCAL-00001" summary="add some example for css3">
       <created>1526348474666</created>
@@ -972,11 +420,18 @@
       <option name="project" value="LOCAL" />
       <updated>1528536011611</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="628">
+      <created>1530232992603</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1530232992603</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="135959000" />
+    <option name="totallyTimeSpent" value="153095000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -1021,95 +476,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/css/test.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="6" column="23" lean-forward="false" selection-start-line="6" selection-start-column="23" selection-end-line="6" selection-end-column="23" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/test.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="12" column="0" lean-forward="false" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/hhui.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2970">
-          <caret line="439" column="0" lean-forward="false" selection-start-line="439" selection-start-column="0" selection-end-line="439" selection-end-column="0" />
-          <folding>
-            <element signature="e#142#231#0" expanded="false" />
-            <element signature="e#277#1530#0" expanded="false" />
-            <element signature="e#1639#2077#0" expanded="false" />
-            <element signature="e#2082#2169#0" expanded="false" />
-            <element signature="e#2198#2545#0" expanded="false" />
-            <element signature="e#2550#2567#0" expanded="false" />
-            <element signature="e#2591#2705#0" expanded="false" />
-            <element signature="e#2879#3775#0" expanded="false" />
-            <element signature="e#3857#3910#0" expanded="false" />
-            <element signature="e#3960#4134#0" expanded="false" />
-            <element signature="e#5879#8218#0" expanded="false" />
-            <element signature="e#8776#9089#0" expanded="false" />
-            <element signature="e#9235#9450#0" expanded="false" />
-            <element signature="e#9655#10158#0" expanded="false" />
-            <element signature="e#10343#11004#0" expanded="false" />
-            <element signature="e#11505#11828#0" expanded="false" />
-            <element signature="e#11907#12209#0" expanded="false" />
-            <element signature="e#12494#12626#0" expanded="false" />
-            <element signature="e#12923#13079#0" expanded="false" />
-            <element signature="e#13288#14301#0" expanded="false" />
-            <element signature="e#14358#14401#0" expanded="false" />
-            <element signature="e#14450#14611#0" expanded="false" />
-            <element signature="e#14726#15018#0" expanded="false" />
-            <element signature="e#15120#15764#0" expanded="false" />
-            <marker date="1528769261080" expanded="true" signature="597:970" ph="..." />
-            <marker date="1528769261080" expanded="true" signature="641:949" ph="..." />
-            <marker date="1528769261080" expanded="true" signature="765:862" ph="..." />
-            <marker date="1528769261080" expanded="true" signature="2374:2506" ph="..." />
-            <marker date="1528769261080" expanded="true" signature="3074:3403" ph="..." />
-            <marker date="1528769261080" expanded="true" signature="3116:3380" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="n#div#0;n#div#2;n#div#0;n#main#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/resize.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="22">
-          <caret line="6" column="24" lean-forward="false" selection-start-line="6" selection-start-column="24" selection-end-line="6" selection-end-column="24" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css/hhui.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="5082">
-          <caret line="231" column="40" lean-forward="false" selection-start-line="231" selection-start-column="40" selection-end-line="231" selection-end-column="40" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css/test.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="6" column="23" lean-forward="false" selection-start-line="6" selection-start-column="23" selection-end-line="6" selection-end-column="23" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/js/hhui.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2970">
@@ -1627,22 +993,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/wap/view/accountDiagnosis/accountDiagnosis.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wap/js/accountDiagnosis/accountDiagnosis.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/js/hhui.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="345">
@@ -1679,6 +1029,105 @@
             <marker date="1528769261080" expanded="true" signature="3074:3403" ph="..." />
             <marker date="1528769261080" expanded="true" signature="3116:3380" ph="..." />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wap/common/js/layer/layer.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wap/common/js/util.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-14322">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1529561124733" expanded="true" signature="410:435" ph="..." />
+            <marker date="1529561124733" expanded="true" signature="456:554" ph="..." />
+            <marker date="1529561124733" expanded="true" signature="727:792" ph="..." />
+            <marker date="1529561124733" expanded="true" signature="833:881" ph="..." />
+            <marker date="1529561124733" expanded="true" signature="953:979" ph="..." />
+            <marker date="1529561124733" expanded="true" signature="1000:1029" ph="..." />
+            <marker date="1529561124733" expanded="true" signature="6868:6893" ph="..." />
+            <marker date="1529561124733" expanded="true" signature="6915:7024" ph="..." />
+            <marker date="1529561124733" expanded="true" signature="7130:7157" ph="..." />
+            <marker date="1529561124733" expanded="true" signature="9253:9267" ph="..." />
+            <marker date="1529561124733" expanded="true" signature="10341:10355" ph="..." />
+            <marker date="1529561124733" expanded="true" signature="10611:10629" ph="..." />
+            <marker date="1529561124733" expanded="true" signature="11706:11720" ph="..." />
+            <marker date="1529561124733" expanded="true" signature="12036:12054" ph="..." />
+            <marker date="1529561124733" expanded="true" signature="13767:13780" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wap/common/css/init.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1232">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wap/js/accountDiagnosis/accountDiagnosis.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="826">
+          <caret line="98" column="0" lean-forward="true" selection-start-line="46" selection-start-column="0" selection-end-line="98" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wap/css/accountDiagnosis/accountDiagnosis.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="30" column="0" lean-forward="false" selection-start-line="30" selection-start-column="0" selection-end-line="65" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wap/view/accountDiagnosis/accountDiagnosis.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="506">
+          <caret line="30" column="6" lean-forward="false" selection-start-line="30" selection-start-column="6" selection-end-line="30" selection-end-column="39" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#div#1;n#div#0;n#div#1;n#div#1;n#div#2;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#2;n#div#3;n#div#1;n#div#1;n#div#1;n#div#0;n#div#1;n#div#1;n#div#2;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wap/view/accountDiagnosis/accountReport.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="320">
+          <caret line="56" column="25" lean-forward="false" selection-start-line="56" selection-start-column="16" selection-end-line="56" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wap/js/accountDiagnosis/accountReport.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-10">
+          <caret line="119" column="13" lean-forward="false" selection-start-line="119" selection-start-column="13" selection-end-line="119" selection-end-column="13" />
+          <folding>
+            <marker date="1530259992154" expanded="true" signature="3759:4107" ph="..." />
+            <marker date="1530259992154" expanded="true" signature="3786:3820" ph="..." />
+            <marker date="1530259992154" expanded="true" signature="3786:3859" ph="..." />
+            <marker date="1530259992154" expanded="true" signature="3886:3922" ph="..." />
+            <marker date="1530259992154" expanded="true" signature="3886:3972" ph="..." />
+            <marker date="1530259992154" expanded="true" signature="3999:4034" ph="..." />
+            <marker date="1530259992154" expanded="true" signature="3999:4078" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wap/css/accountDiagnosis/accountReport.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="531">
+          <caret line="291" column="34" lean-forward="true" selection-start-line="291" selection-start-column="34" selection-end-line="291" selection-end-column="34" />
+          <folding />
         </state>
       </provider>
     </entry>
