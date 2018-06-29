@@ -1,0 +1,16 @@
+/* mobile 样式 */
+html{
+	background-color: #EFEFF4;
+	font-size: 62.5%;
+}
+
+body {
+	background: #EFEFF4 none repeat scroll 0% 0%;
+	max-width: 600px;
+	margin: 0 auto;
+	font-family: "SF Pro Text","DIN","Arial","微软雅黑";
+}
+
+i{
+	font-style: normal;
+}
