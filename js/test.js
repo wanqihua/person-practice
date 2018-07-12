@@ -96,7 +96,38 @@ wSpace.function.pullRefresh();
   });
 })();
 
+//验证码
+wSpace.function.createCode('myCanvas',4);
+(function(){
+  let change = document.getElementsByClassName('change_one')[0];
+  change.addEventListener('click', function(){
+    wSpace.function.createCode('myCanvas',4);
+  })
+})();
 
+//随机选彩票
+function randomChoose(){
+  $('.num_box').html();
+  const numList = [0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29];
+  let info = '';
+  for( let i = 0; i < 7; i++ ){
+    let index = Math.floor(Math.random()*numList.length);
+    let num = numList[index];
+    numList.splice(index,1);
+    info += `<p>${num}</p>`;
+  }
+  $('.num_box').html(info);
+};
+randomChoose();
+
+(function(){
+  const randomSelectionBottom = document.getElementsByClassName('random_selection_bottom')[0];
+  randomSelectionBottom.addEventListener('click', function(){
+    randomChoose();
+  })
+})();
+
+/*
 (function(){
   function observe(data){
     if(!data || typeof data !== 'object'){
@@ -151,4 +182,4 @@ wSpace.function.pullRefresh();
       Dep.target = null;
     }
   }
-})();
+})();*/

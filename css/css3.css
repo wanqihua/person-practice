@@ -582,14 +582,14 @@ main {
   animation: orbit 2s linear infinite;
 }
 
-.earth::before,
-.moon::before {
+.earth:before,
+.moon:before {
   content: '';
   position: absolute;
   border-radius: 50%;
 }
 
-.earth::before {
+.earth:before {
   top: 2.2em;
   right: 2.2em;
   width: 3em;
@@ -597,7 +597,7 @@ main {
   background-color: #3388ff;
 }
 
-.moon::before {
+.moon:before {
   top: 0.8em;
   right: 0.2em;
   width: 1.2em;
