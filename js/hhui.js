@@ -554,7 +554,7 @@ wSpace.function = {
       }
     };
     //预加载需要的图片
-    wSpace.function.preloadImg(['./images/loading.png']);
+    wSpace.function.preloadImg(['../images/loading.png']);
   },
 
   /**
