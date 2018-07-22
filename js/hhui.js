@@ -306,6 +306,29 @@ wSpace.function = {
   },
 
   /**
+   *  随机创建验证码1-9a-zA-Z
+   *  CanvasId - canvas画板的ID
+   *  codeLength - 随机验证码长度
+   */
+  createCode: (CanvasId, codeLength) => {
+    if( codeLength === undefined || codeLength === '' ){
+      codeLength = 4;
+    }
+    let code = '';
+    const selectChar = [1,2,3,4,5,6,7,8,9,'a','b','c','d','e','f','g','h','j','k','l','m','n','p','q','r','s','t','u','v','w','x','y','z','A','B','C','D','E','F','G','H','J','K','L','M','N','P','Q','R','S','T','U','V','W','X','Y','Z'];
+    for( let i = 0; i < codeLength; i++ ){
+      let charIndex = Math.floor(Math.random()*selectChar.length);
+      code += selectChar[charIndex];
+    }
+    const canvas = document.getElementById(CanvasId);
+    const ctx = canvas.getContext("2d");
+    ctx.clearRect(0,0,canvas.width,canvas.height);
+    ctx.font = "30px 'Microsoft Yahei'";
+    ctx.fillStyle = "#000";
+    ctx.fillText(code,10,35);
+  },
+
+  /**
    *  将20180322格式处理成2018-03-22的模式(string)
    */
   dateForm: (date) => {
@@ -516,7 +539,7 @@ wSpace.function = {
       let windowHeight = document.documentElement.clientHeight || document.body.clientHeight;
       let documentHeight = document.documentElement.scrollHeight || document.body.scrollHeight;
       let updateTime = document.getElementsByClassName('pull_refresh_update_time')[0];
-      console.log(scrollTop + ":" + documentHeight + ":" + windowHeight);
+      // console.log(scrollTop + ":" + documentHeight + ":" + windowHeight);
       if( scrollTop >= documentHeight - windowHeight ){
       updateTime.innerHTML = '';
       updateTime.classList.add("pull_refresh_update_time_loading");

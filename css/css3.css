@@ -452,3 +452,161 @@ main {
     animation-timing-function: ease-in;
   }
 }
+
+.before_after_example {
+  width: 100%;
+  height: 0;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.before_after_example>div {
+  position: relative;
+  width: 1rem;
+  height: 1rem;
+  margin: .2rem calc((50% - 1rem)/2);
+  box-shadow: 0 0 1px #999;
+  flex: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.triangle_one {
+  position: relative;
+  width: .8rem;
+  height: .4rem;
+  margin: .2rem auto;
+  border: 1px solid #999;
+  border-radius: 4px;
+}
+
+.triangle_one:before {
+  position: absolute;
+  display: block;
+  content: "";
+  top: -10px;
+  left: 10px;
+  border-left: 7px solid transparent;
+  border-right: 7px solid transparent;
+  border-bottom: 10px solid #999;
+  z-index: 2;
+}
+
+.triangle_one:after {
+  position: absolute;
+  display: block;
+  content: "";
+  top: -9px;
+  left: 11px;
+  border-left: 6px solid transparent;
+  border-right: 6px solid transparent;
+  border-bottom: 9px solid #fff;
+  z-index: 3;
+}
+
+.triangle_two {
+  position: relative;
+  width: .8rem;
+  height: .4rem;
+  margin: .2rem auto;
+  background: #999;
+  border-radius: 4px;
+}
+
+.triangle_two:after {
+  position: absolute;
+  display: block;
+  content: "";
+  top: -9px;
+  left: 11px;
+  border-left: 6px solid transparent;
+  border-right: 6px solid transparent;
+  border-bottom: 9px solid #999;
+}
+
+.sun_earth_moon_example_box {
+  width: 100%;
+  height: 0;
+  overflow: hidden;
+}
+
+.sun_earth_moon {
+  position: relative;
+  width: 3.75rem;
+  height: 3.75rem;
+  background: #000;
+  font-size: 10px;
+}
+
+.sun_earth_moon .sun {
+  position: absolute;
+  width: 6em;
+  height: 6em;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  background: #FF0;
+  border-radius: 50%;
+  overflow: hidden;
+  box-shadow: 0 0 3em #fff;
+}
+
+.earth,
+.moon {
+  position: absolute;
+  border-style: solid;
+  border-color: white transparent transparent transparent;
+  border-width: 0.1em 0.1em 0 0;
+  /*border: 1px solid #fff;*/
+  border-radius: 50%;
+}
+
+.earth {
+  top: 10%;
+  left: 10%;
+  width: 80%;
+  height: 80%;
+  animation: orbit 36s linear infinite;
+}
+
+/* rotation period 27.322 days */
+.moon {
+  top: 0;
+  right: 0;
+  width: 7em;
+  height: 7em;
+  animation: orbit 2s linear infinite;
+}
+
+.earth:before,
+.moon:before {
+  content: '';
+  position: absolute;
+  border-radius: 50%;
+}
+
+.earth:before {
+  top: 2.2em;
+  right: 2.2em;
+  width: 3em;
+  height: 3em;
+  background-color: #3388ff;
+}
+
+.moon:before {
+  top: 0.8em;
+  right: 0.2em;
+  width: 1.2em;
+  height: 1.2em;
+  background-color: #999;
+}
+
+@keyframes orbit {
+  to {
+    transform: rotate(360deg);
+  }
+}

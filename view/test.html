@@ -6,10 +6,10 @@
     <meta name="renderer" content="webkit" />
     <meta name="viewport" content="width=device-width, minimum-scale=1.0, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
     <meta name="format-detection" content="telephone=no"/>
-    <link rel="stylesheet" href="./css/hhui.css" />
-    <link rel="stylesheet" href="./css/test.css" />
+    <link rel="stylesheet" href="../css/hhui.css" />
+    <link rel="stylesheet" href="../css/test.css" />
   </head>
-  <script src="./js/resize.js"></script>
+  <script src="../js/resize.js"></script>
   <body>
     <nav id="nav_bar"></nav>
     <main>
@@ -44,11 +44,21 @@
           <input id="bindInputTwo" />
           <p class="show_data_two"></p>
         </div>
+        <div class="code_box">
+          <canvas id="myCanvas" width="130" height="50" style="border:1px solid #d3d3d3;">
+            Your browser does not support the HTML5 canvas tag.
+          </canvas>
+          <div class="change_one">换一张</div>
+        </div>
+        <div class="random_selection">
+          <p class="random_selection_bottom">随机选彩票</p>
+          <div class="num_box"></div>
+        </div>
       </div>
       <div class="pull_refresh_update_time">数据更新时间：2018-01-01</div>
     </main>
   </body>
-  <script src="./common/js/jquery-3.2.1.min.js"></script>
-  <script src="./js/hhui.js"></script>
-  <script src="./js/test.js"></script>
+  <script src="../common/js/jquery-3.2.1.min.js"></script>
+  <script src="../js/hhui.js"></script>
+  <script src="../js/test.js"></script>
 </html>
