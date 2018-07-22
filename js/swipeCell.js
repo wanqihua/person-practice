@@ -14,8 +14,8 @@ function touchMove(){
     let initY;                 // 触摸位置Y
     let moveX;                 // 滑动时的位置X
     let moveY;                 // 滑动时的位置Y
-    let X = 0;                 // 移动距离
-    let Y = 0;                 // 移动距离
+    let X;                     // 移动距离
+    let Y;                     // 移动距离
     let objX = 0;              // 目标对象位置
     let touchFlag = false;     // 判断是点击还是滑动
     let swipeX;
@@ -41,10 +41,10 @@ function touchMove(){
       moveY = event.targetTouches[0].pageY;
       X = moveX - initX;
       Y = moveY - initY;
-      if( swipeX && Math.abs(X) - Math.abs(Y) > 0 ){
+      if( swipeX && Math.abs(X) > Math.abs(Y) ){
         event.stopPropagation();   // 阻止冒泡
-        // event.preventDefault();    // 阻止浏览器默认事件
         swipeY = false;
+        touchFlag = true;
         if( objX === 0 ){       // 收起的状态
           if(X >= 0){
             obj.style.transform = "translateX(" + 0 + "px)";
@@ -52,7 +52,6 @@ function touchMove(){
             if (X < -80) {
               X = -80;
             }
-            touchFlag = true;
             obj.style.transform = "translateX(" + X + "px)";
           }
         }else if( objX < 0 ){   // 展开的状态
@@ -60,7 +59,6 @@ function touchMove(){
             if( (X - 80) > 0 ){
               X = 80;
             }
-            touchFlag = true;
             obj.style.transform = "translateX(" + (X - 80) + "px)";
           }else{                // 保持展开状态
             obj.style.transform = "translateX(-80px)";
@@ -76,7 +74,6 @@ function touchMove(){
 
     doc[i].addEventListener('touchend', function(event) {
       event.stopPropagation();   // 阻止冒泡
-      // event.preventDefault();    // 阻止浏览器默认事件
       if( touchFlag === false ){
         console.log('nomove');
       }else{
