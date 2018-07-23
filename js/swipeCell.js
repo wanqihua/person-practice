@@ -2,8 +2,7 @@
 window.addEventListener('load', function(){
   touchMove();
   deleteEle();
-  //下拉刷新
-  wSpace.function.pullRefresh();
+  pullRefresh();   //下拉刷新
 },false);
 
 function touchMove(){
@@ -101,3 +100,26 @@ function deleteEle(){
   })
 }
 
+
+function pullRefresh(){
+  window.onscroll = function(){
+    // 滑动距离、视口高度、文档流高度
+    let scrollTop = document.documentElement.scrollTop || document.body.scrollTop;
+    let windowHeight = document.documentElement.clientHeight || document.body.clientHeight;
+    let documentHeight = document.documentElement.scrollHeight || document.body.scrollHeight;
+    let infoList = document.getElementsByClassName('info_list')[0];
+    if( windowHeight*2 >= documentHeight - scrollTop ){
+      let fragment = document.createDocumentFragment();
+      for (let i = 0; i < 10; i++){
+        let item = document.createElement("div");
+        item.classList.add('single_info_box');
+        item.innerHTML = `<div class="single_info borBot">陈独秀同志你坐下</div>
+                          <div class="delete_btn">删 除</div>`;
+        fragment.appendChild(item);
+      }
+      infoList.appendChild(fragment);
+      //添加滑动删除事件，后期使用代理优化，减少dom操作
+      touchMove();
+    }
+  };
+}
