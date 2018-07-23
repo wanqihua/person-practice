@@ -61,12 +61,19 @@ body {
   z-index: 2;
 }
 
+.disappear {
+  height: 0;
+  -webkit-transition: height .4s ease-in-out;
+          transition: height .4s ease-in-out;
+}
+
 .main {
   width: 100%;
 }
 
 .info_list {
   width: 100%;
+  overflow: hidden;
 }
 
 .single_info_box {
@@ -75,6 +82,9 @@ body {
   width: 100%;
   height: .6rem;
   background: #fff;
+  -webkit-transition: 1s;
+  transition: 1s;
+  /*overflow: hidden;*/
 }
 
 .single_info {
@@ -100,6 +110,7 @@ body {
   background: #e63838;
   text-align: center;
   line-height: .6rem;
-  font-size: .24rem;
+  font-size: .16rem;
   color: #fff;
 }
+
