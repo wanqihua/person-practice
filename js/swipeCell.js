@@ -1,5 +1,10 @@
+$(function(){
+  touchMove()
+});
+
 function touchMove(){
-  let doc = document.querySelectorAll('.content_item .scheme');
+  let doc = document.querySelectorAll('.single_info_box .single_info');
+  let openFlag = false;  //不存在展开项
   for( let i = 0; i < doc.length; i++ ){
     let initX; //触摸位置
     let moveX; //滑动时的位置
@@ -87,7 +92,7 @@ function touchMove(){
 
 
 
-/侧滑显示删除按钮
+//侧滑显示删除按钮
 var expansion = null; //是否存在展开的list
 var container = document.querySelectorAll('.list li a');
 for(var i = 0; i < container.length; i++){
@@ -96,7 +101,7 @@ for(var i = 0; i < container.length; i++){
     x = event.changedTouches[0].pageX;
     y = event.changedTouches[0].pageY;
     swipeX = true;
-    swipeY = true ;
+    swipeY = true;
     if(expansion){   //判断是否展开，如果展开则收起
       expansion.className = "";
     }
