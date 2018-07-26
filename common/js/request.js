@@ -21,7 +21,7 @@ export const request = ({url, data}) => {
     let dataStr = '';  // 数据拼接字符串
     Object.keys(data).forEach(key => {
       dataStr += key + '=' + data[key] + '&'
-    })
+    });
     const handleData = (data) => {
       const keys = Object.keys(data);
       const keysLen = keys.length;
