@@ -226,7 +226,7 @@ article, aside, footer, header, hgroup, main, nav, section{
   left: 50%;
   width: 0.75rem;
   height: 0.585rem;
-  background: url(../images/explain_ok.png) no-repeat;
+  background: url(../../images/explain_ok.png) no-repeat;
   background-size: cover;
   transform: translateX(-50%);
   -webkit-transform: translateX(-50%);
