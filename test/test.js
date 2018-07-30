@@ -149,7 +149,6 @@ randomChoose();
         // 由于需要在闭包内添加watcher，所以通过Dep定义一个全局target属性，暂存watcher, 添加完移除
         Dep.target && dep.addDep(Dep.target);
         return val;
-
       },
       set: function(newVal){
         if (val === newVal) return;
@@ -158,11 +157,9 @@ randomChoose();
       }
     });
   }
-
   function Dep() {
     this.subs = [];
   }
-
   Dep.prototype = {
     addSub: function(sub) {
       this.subs.push(sub);
@@ -173,7 +170,6 @@ randomChoose();
       });
     }
   };
-
   //Watcher.js
   Watcher.prototype = {
     get: function(key){
