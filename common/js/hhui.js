@@ -410,7 +410,7 @@ wSpace.function = {
     if(isInt === undefined || isInt === ""){
       isInt = 0;
     }
-    let num = parseFloat(num);
+    num = parseFloat(num);
     if(num !== undefined && !isNaN(num)){
       if (isInt === 1) {
       return Math.round(num);
@@ -500,7 +500,10 @@ wSpace.function = {
     do{
       elem = elem.nextSibling;
     } while(elem && elem.nodeType !== 1);
-    if(!!elem) return elem; else return null;
+    if(!!elem)
+      return elem;
+    else
+      return null;
   },
 
   /**
@@ -521,7 +524,9 @@ wSpace.function = {
     if(srcArr instanceof Array){
       for(let i = 0; i < srcArr.length; i++){
       let oImg = new Image();
+      console.log(srcArr[i]);
       oImg.src = srcArr[i];
+      console.log(oImg.src);
       }
     }
   },
@@ -554,7 +559,7 @@ wSpace.function = {
       }
     };
     //预加载需要的图片
-    wSpace.function.preloadImg(['../images/loading.png']);
+    // wSpace.function.preloadImg(['/common/images/loading.png']);
   },
 
   /**
