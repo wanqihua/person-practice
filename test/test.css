@@ -1,0 +1,172 @@
+/*
+  this css file for test.html
+  date: 2018-04-09
+  author: Andy
+*/
+.to_other_page {
+  position: fixed;
+  right: .4rem;
+  bottom: 4rem;
+  border-radius: 100%;
+  background: rgba(0,0,0,.3);
+  overflow: hidden;
+}
+
+.content {
+  /*height: 667px;*/
+  overflow: hidden;
+}
+
+.hoverBaselineTest {
+  width: 10em;
+  font-size: .14rem;
+  margin: 5px auto;
+  color: #333333;
+  line-height: 2em;
+  text-align: center;
+}
+
+.progress_bar_text_area {
+  width: 100%;
+  margin: .2rem 0;
+  border-top: 1px solid #999;
+  border-bottom: 1px solid #999;
+}
+
+.input_progress_num {
+  width: 1.5rem;
+  height: .2rem;
+  line-height: .2rem;
+  padding-left: .5em;
+  color: #333;
+  border: 1px solid #999999;
+  border-radius: 4px;
+  margin: 15px auto;
+  display: block;
+  /*加上这句之后，input距离顶部的距离就由原来的比较大的值，变成了0*/
+}
+
+.input_search_hover {
+  width: 100%;
+  height: 3rem;
+  font-size: .14rem;
+  border-bottom: 1px solid #999;
+}
+
+.search_input {
+  margin-top: .2rem;
+  margin-left: 50%;
+  -webkit-transform: translateX(-50%);
+  transform: translateX(-50%);
+  width: 1.6rem;
+  height: 2em;
+  border: 1px solid #f2f2f2;
+  font-size: 14px;
+  color: #222;
+  line-height: 2em;
+  text-indent: 1em;
+}
+
+.search_reason {
+  display: none;
+  margin-top: -1px;
+  margin-left: 50%;
+  -webkit-transform: translateX(-50%);
+  transform: translateX(-50%);
+  width: 1.6rem;
+  border: 1px solid #f2f2f2;
+  font-size: 14px;
+  color: #222;
+  line-height: 1.75em;
+  text-indent: 1em;
+}
+
+.search_reason p {
+  border-bottom: 1px solid #f2f2f2;
+}
+
+.search_reason p:last-child {
+  border-bottom: none;
+}
+
+.hover_bgColor {
+  background: #d6d6d6;
+}
+
+.bind_data_box {
+  width: 100%;
+  height: 2rem;
+  border-bottom: 1px solid #999;
+}
+
+.bind_data_box p{
+  width: 100%;
+  height: .3rem;
+  line-height: .3rem;
+  text-align: center;
+  font-size: .16rem;
+  color: #333;
+}
+
+.bind_data_box input {
+  display: block;
+  margin: .2rem auto;
+  width: 1.6rem;
+  height: 2em;
+  border: 1px solid #f2f2f2;
+  font-size: 14px;
+  color: #222;
+  line-height: 2em;
+  text-indent: 1em;
+}
+
+.code_box {
+  width: 100%;
+  height: 2rem;
+  border-bottom: 1px solid #999;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.change_one {
+  width: .6rem;
+  height: .3rem;
+  background: #3388ff;
+  border-radius: 4px;
+  line-height: .3rem;
+  text-align: center;
+  font-size: .16rem;
+  color: #fff;
+  margin-left: .3rem;
+}
+
+.random_selection {
+  width: 100%;
+  height: 2rem;
+  border-bottom: 1px solid #999;
+}
+
+.random_selection > p:nth-child(1) {
+  margin: .2rem auto;
+  width: 1.6rem;
+  height: 2em;
+  background: #3388ff;
+  border-radius: 4px;
+  text-align: center;
+  color: #fff;
+  font-size: .18rem;
+  line-height: 2em;
+}
+
+.num_box {
+  display: flex;
+  align-items: center;
+  height: .6rem;
+}
+
+.num_box p {
+  flex: auto;
+  text-align: center;
+  font-size: .18rem;
+}
