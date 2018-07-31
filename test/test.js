@@ -83,6 +83,7 @@ wSpace.function.pullRefresh();
   }
 })();
 
+//双向绑定
 (function(){
   let inputContent = {values:'123'};
   let input = document.getElementById('bindInput');
@@ -117,15 +118,49 @@ function randomChoose(){
     info += `<p>${num}</p>`;
   }
   $('.num_box').html(info);
-};
-randomChoose();
-
+}randomChoose();
 (function(){
   const randomSelectionBottom = document.getElementsByClassName('random_selection_bottom')[0];
   randomSelectionBottom.addEventListener('click', function(){
     randomChoose();
   })
 })();
+
+//去除空格
+function createStr(){
+  let trimAllStr = document.getElementsByClassName('trim_all_str')[0];
+  let returnStr = '';
+  const str = [' ',1,' ',2,' ',3];
+  for( let i = 0; i < 50; i++ ){
+    let charIndex = Math.floor(Math.random()*str.length);
+    returnStr += str[charIndex];
+  }
+  trimAllStr.innerHTML = returnStr;
+}createStr();
+let removeBottom = document.getElementsByClassName('remove_bottom')[0];
+removeBottom.addEventListener('click', function(){
+  let trimAllStr = document.getElementsByClassName('trim_all_str')[0].innerHTML;
+  let trimAfter = document.getElementsByClassName('trim_after')[0];
+  trimAfter.innerHTML = trimAllStr.replace(/\s+|\s/g, '');
+  createStr();
+});
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /*
 (function(){
