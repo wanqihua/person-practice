@@ -2,17 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2a55456f-3d54-4ab1-9eb3-7ed8aa3324e2" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/person-practice.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/codeStyleSettings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/myUI.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/watcherTasks.xml" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/debounce&amp;Throttle/debounce.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/debounce&amp;Throttle/throttle.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/js/fetch.js" beforeDir="false" afterPath="$PROJECT_DIR$/common/js/fetch.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/js/hhui.js" beforeDir="false" afterPath="$PROJECT_DIR$/common/js/hhui.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rain/rain.html" beforeDir="false" afterPath="$PROJECT_DIR$/rain/rain.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sortAlgorithm/sortAlgorithm.html" beforeDir="false" afterPath="$PROJECT_DIR$/sortAlgorithm/sortAlgorithm.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/swipeCell/swipeCell.js" beforeDir="false" afterPath="$PROJECT_DIR$/swipeCell/swipeCell.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -23,6 +16,71 @@
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file leaf-file-name="debounce.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/debounce&amp;Throttle/debounce.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="644">
+              <caret line="52" column="3" selection-start-line="52" selection-start-column="3" selection-end-line="52" selection-end-column="3" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="throttle.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/debounce&amp;Throttle/throttle.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="667">
+              <caret line="50" lean-forward="true" selection-start-line="50" selection-end-line="50" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="rain.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/rain/rain.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="23">
+              <caret line="1" column="6" lean-forward="true" selection-start-line="1" selection-start-column="6" selection-end-line="1" selection-end-column="6" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="sortAlgorithm.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/sortAlgorithm/sortAlgorithm.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="184">
+              <caret line="8" column="2" lean-forward="true" selection-start-line="8" selection-start-column="2" selection-end-line="8" selection-end-column="57" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="swipeCell.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/swipeCell/swipeCell.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="483">
+              <caret line="165" column="10" lean-forward="true" selection-start-line="165" selection-start-column="10" selection-end-line="165" selection-end-column="10" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="swipeCell.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/swipeCell/swipeCell.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="253">
+              <caret line="11" column="7" lean-forward="true" selection-start-line="11" selection-start-column="7" selection-end-line="11" selection-end-column="7" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+      </list>
+    </option>
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
@@ -44,6 +102,9 @@
         <option value="$PROJECT_DIR$/common/js/hhui.js" />
         <option value="$PROJECT_DIR$/common/js/fetch.js" />
         <option value="$PROJECT_DIR$/rain/rain.html" />
+        <option value="$PROJECT_DIR$/debounce&amp;Throttle/debounce.html" />
+        <option value="$PROJECT_DIR$/debounce&amp;Throttle/throttle.html" />
+        <option value="$PROJECT_DIR$/swipeCell/swipeCell.js" />
       </list>
     </option>
   </component>
@@ -81,20 +142,36 @@
               <item name="person-practice" type="b2602c69:ProjectViewProjectNode" />
               <item name="person-practice" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="person-practice" type="b2602c69:ProjectViewProjectNode" />
+              <item name="person-practice" type="462c0819:PsiDirectoryNode" />
+              <item name="debounce&amp;Throttle" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="person-practice" type="b2602c69:ProjectViewProjectNode" />
+              <item name="person-practice" type="462c0819:PsiDirectoryNode" />
+              <item name="sortAlgorithm" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="person-practice" type="b2602c69:ProjectViewProjectNode" />
+              <item name="person-practice" type="462c0819:PsiDirectoryNode" />
+              <item name="swipeCell" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="HbShouldOpenHtmlAsHb" value="" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.prettier" value="true" />
     <property name="node.js.path.for.package.prettier" value="project" />
     <property name="node.js.selected.package.prettier" value="" />
+    <property name="settings.editor.selected.configurable" value="reference.settings.ide.settings.web.browsers" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -128,6 +205,7 @@
       <updated>1532911947319</updated>
       <workItem from="1532911948553" duration="7764000" />
       <workItem from="1533015707675" duration="2638000" />
+      <workItem from="1533136522952" duration="7909000" />
     </task>
     <task id="LOCAL-00001" summary="730 删除文件">
       <created>1532911998222</created>
@@ -143,41 +221,40 @@
       <option name="project" value="LOCAL" />
       <updated>1532915578542</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="730 整理">
+      <created>1533136537915</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1533136537915</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="10403000" />
+    <option name="totallyTimeSpent" value="18312000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-9" y="-9" width="1938" height="1050" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.12447917" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
+      <window_info anchor="bottom" id="Version Control" order="7" weight="0.32855567" />
       <window_info anchor="bottom" id="Run" order="2" />
-      <window_info anchor="bottom" id="Version Control" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Terminal" />
+      <window_info anchor="bottom" id="Terminal" order="7" />
+      <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
-      <window_info id="Favorites" side_tool="true" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="bottom" id="Version Control" order="7" weight="0.32908705" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.12447917" />
-      <window_info id="Structure" order="1" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Run" order="2" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
-      <window_info anchor="bottom" id="Terminal" order="7" />
-      <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Find" order="1" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -192,9 +269,6 @@
     <option name="LAST_COMMIT_MESSAGE" value="730 整理" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/swipeCell/swipeCell.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/test/test.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="968">
@@ -222,9 +296,6 @@
           <caret line="454" selection-start-line="454" selection-end-line="454" />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/common/js/resize.js">
-      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/css3/css3.html">
       <provider selected="true" editor-type-id="text-editor">
@@ -268,16 +339,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/sortAlgorithm/sortAlgorithm.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="440">
-          <caret line="69" column="25" lean-forward="true" selection-start-line="69" selection-start-column="25" selection-end-line="69" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/common/js/resize.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/common/js/request.js">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -320,9 +381,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/swipeCell/swipeCell.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/test/test.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="342">
@@ -332,8 +390,43 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/rain/rain.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="606">
-          <caret line="57" column="34" lean-forward="true" selection-start-line="57" selection-start-column="34" selection-end-line="57" selection-end-column="34" />
+        <state relative-caret-position="23">
+          <caret line="1" column="6" lean-forward="true" selection-start-line="1" selection-start-column="6" selection-end-line="1" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sortAlgorithm/sortAlgorithm.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="184">
+          <caret line="8" column="2" lean-forward="true" selection-start-line="8" selection-start-column="2" selection-end-line="8" selection-end-column="57" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/debounce&amp;Throttle/debounce.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="644">
+          <caret line="52" column="3" selection-start-line="52" selection-start-column="3" selection-end-line="52" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/debounce&amp;Throttle/throttle.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="667">
+          <caret line="50" lean-forward="true" selection-start-line="50" selection-end-line="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/swipeCell/swipeCell.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="253">
+          <caret line="11" column="7" lean-forward="true" selection-start-line="11" selection-start-column="7" selection-end-line="11" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/swipeCell/swipeCell.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="483">
+          <caret line="165" column="10" lean-forward="true" selection-start-line="165" selection-start-column="10" selection-end-line="165" selection-end-column="10" />
         </state>
       </provider>
     </entry>

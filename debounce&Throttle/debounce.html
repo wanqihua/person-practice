@@ -1,0 +1,56 @@
+<!doctype html>
+<html>
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+  <title>debounce</title>
+  <meta name="renderer" content="webkit" />
+  <meta name="viewport" content="width=device-width, minimum-scale=1.0, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+  <meta name="format-detection" content="telephone=no"/>
+  <link rel="stylesheet" href="../common/css/hhui.css" />
+  <style>
+    #no_debounce,
+    #debounce{
+      width: 3.75rem;
+      height: 2rem;
+    }
+  </style>
+</head>
+<script src="../common/js/resize.js"></script>
+<body>
+<div id="no_debounce">0</div>
+<div id="debounce">0</div>
+<div id=""></div>
+</body>
+<script>
+  window.addEventListener('load', function(){
+    noDebounceFun();
+    debounceFun();
+  },false);
+  function noDebounceFun(){
+    let no_num = 0;
+    let noDebounce = document.getElementById('no_debounce');
+    noDebounce.addEventListener('touchmove',function(){
+      no_num++;
+      noDebounce.innerHTML = no_num;
+    },false)
+  }
+  //简单的防抖方式
+  function debounceFun(){
+    let num = 0;
+    let timer = null;
+    let debounce = document.getElementById('debounce');
+    debounce.addEventListener('touchmove',function(){
+      if(timer){
+        console.log(timer);
+        clearTimeout(timer);
+      }
+      timer = setTimeout(function () {
+        num++;
+        debounce.innerHTML = num;
+        timer = null;
+      },200)
+    },false);
+  }
+
+</script>
+</html>
