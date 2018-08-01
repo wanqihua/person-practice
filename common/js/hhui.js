@@ -454,6 +454,18 @@ wSpace.function = {
   },
 
   /**
+   * 将数组arrayA插入数组arrayB的指定位置
+   * @param insertIndex 指定的位置
+   * @param arrayA 插入的数组
+   * @param arrayB 被插入的数组
+   */
+  insertArray: (insertIndex, arrayA, arrayB) => {
+    arrayA.unshift(insertIndex, 0); //前插入2个元素：splice前2个参数（开始位置，删除几个元素
+    Array.prototype.splice.apply(arrayB, arrayA);
+    return arrayB;
+  },
+
+  /**
   判断该终端是否为移动端
   true为移动端
   */
@@ -614,7 +626,7 @@ wSpace.function = {
     let DecimalNum = _num.split('.')[1];
     let flag = '';
     if( IntegerNum.substr(0, 1)  === '-' ){
-      IntegerNum = IntegerNum.substr(1, IntegerNum.length-1)
+      IntegerNum = IntegerNum.substr(1, IntegerNum.length-1);
       flag = '-';
     }
     while ( IntegerNum.length > 3 ) {
