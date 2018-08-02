@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="renderer" content="webkit" />
+  <meta name="viewport" content="width=device-width, minimum-scale=1.0, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+  <meta name="format-detection" content="telephone=no"/>
+  <link rel="stylesheet" href="../common/css/hhui.css" />
+  <title>throttle</title>
+  <style>
+    #noThrottle,
+    #throttle {
+      width: 3.75rem;
+      height: 2rem;
+    }
+  </style>
+</head>
+<script src="../common/js/resize.js"></script>
+<body>
+<div id="noThrottle">0</div>
+<div id="throttle">0</div>
+</body>
+<script>
+  window.addEventListener('load', function(){
+    noThrottleFun();
+    throttleFun();
+  },false);
+  function noThrottleFun(){
+    let no_num = 0;
+    let noThrottle = document.getElementById('noThrottle');
+    noThrottle.addEventListener('touchmove',function(){
+      no_num++;
+      noThrottle.innerHTML = no_num;
+    },false)
+  }
+  //简单的节流方式
+  function throttleFun(){
+    let startTime = Date.now(); //开始时间
+    let time = 500; //间隔时间
+    let num = 0;
+    let throttle = document.getElementById('throttle');
+    throttle.addEventListener('touchmove',function(){
+      let currentTime = Date.now();
+      if(currentTime - startTime >= time){
+        num++;
+        throttle.innerHTML = num;
+        startTime = currentTime;
+      }
+    },false);
+  }
+
+</script>
+</html>
