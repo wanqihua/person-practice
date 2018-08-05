@@ -2,7 +2,7 @@
 window.addEventListener('load', function(){
   touchMove();
   deleteEle();
-  pullRefresh();   //下拉刷新
+  window.addEventListener('scroll',throttle(pullRefresh,200,200));
 },false);
 
 function touchMove(){
@@ -74,7 +74,7 @@ function touchMove(){
     doc[i].addEventListener('touchend', function(event) {
       event.stopPropagation();   // 阻止冒泡
       if( touchFlag === false ){
-        console.log('nomove');
+        // code for noMove
       }else{
         let obj = event.target.parentNode;
         objX = (obj.style.transform.replace(/translateX\(/g, "").replace(/px\)/g, "")) * 1;
@@ -101,7 +101,6 @@ function deleteEle(){
 }
 
 function pullRefresh(){
-  window.onscroll = function(){
     // 滑动距离、视口高度、文档流高度
     let scrollTop = document.documentElement.scrollTop || document.body.scrollTop;
     let windowHeight = document.documentElement.clientHeight || document.body.clientHeight;
@@ -119,41 +118,36 @@ function pullRefresh(){
       infoList.appendChild(fragment);
       //添加滑动删除事件，后期使用代理优化，减少dom操作
       touchMove();
+      deleteEle();
     }
-  };
 }
 
 // 防抖动函数
 function debounce(func, wait, immediate) {
-  var timeout;
+  let timeout;
   return function() {
-    var context = this, args = arguments;
-    var later = function() {
+    let context = this, args = arguments;
+    let later = function() {
       timeout = null;
       if (!immediate) func.apply(context, args);
     };
-    var callNow = immediate && !timeout;
+    let callNow = immediate && !timeout;
     clearTimeout(timeout);
     timeout = setTimeout(later, wait);
     if (callNow) func.apply(context, args);
   };
 };
 
-var myEfficientFn = debounce(function() {
-  console.log(this);
-}, 250);
-
 // 绑定监听
-window.addEventListener('scroll', myEfficientFn);
+// window.addEventListener('scroll', myEfficientFn);
 
 
 // 简单的节流函数
 function throttle(func, wait, mustRun) {
-  var timeout,
+  let timeout,
     startTime = new Date();
-
   return function() {
-    var context = this,
+    let context = this,
       args = arguments,
       curTime = new Date();
 
@@ -168,9 +162,4 @@ function throttle(func, wait, mustRun) {
     }
   };
 };
-// 实际想绑定在 scroll 事件上的 handler
-function realFunc(){
-  console.log("Success");
-}
-// 采用了节流函数
-window.addEventListener('scroll',throttle(realFunc,500,1000));
+
