@@ -3,6 +3,15 @@
   date: 2018-04-09
   author: Andy
 */
+//页面进度条
+window.addEventListener('scroll',function(){
+  let scrollTop = document.documentElement.scrollTop || document.body.scrollTop;
+  let windowHeight = document.documentElement.clientHeight || document.body.clientHeight;
+  let documentHeight = document.documentElement.scrollHeight || document.body.scrollHeight;
+  let percent = scrollTop/(documentHeight - windowHeight)*100;
+  let barNum = document.getElementsByClassName('percent_bar_line')[0];
+  barNum.style.width = percent + '%';
+},false);
 
 //纯css导航
 wSpace.UI.hoverBar(['CSS','HTML','VUE'], 'nav_bar');
