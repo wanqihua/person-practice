@@ -6,7 +6,6 @@
 
 //纯css导航
 wSpace.UI.hoverBar(['CSS','HTML','VUE'], 'nav_bar');
-
 //下拉刷新
 wSpace.function.pullRefresh();
 

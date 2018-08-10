@@ -1,0 +1,103 @@
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <title>vueLifeCycle</title>
+    <meta name="renderer" content="webkit" />
+    <meta name="viewport" content="width=device-width, minimum-scale=1.0, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <meta name="format-detection" content="telephone=no"/>
+    <style>
+      .destroy {
+        width: 100px;
+        height: 30px;
+        color: #fff;
+        font-size: 15px;
+        text-align: center;
+        line-height: 30px;
+        border-radius: 5px;
+        background: #3388ff;
+      }
+    </style>
+  </head>
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/vue/2.1.3/vue.js"></script>
+<body>
+
+<div id="app">
+  <p @click="changeMessage()">{{ message }}</p>
+  <div class="destroy" @click="destroyFun">destroy</div>
+  <p>销毁完成后，我们再重新改变message的值，vue不再对此动作进行响应了。但是原先生成的dom元素还存在，可以这么理解，执行了destroy操作，后续就不再受vue控制了</p>
+</div>
+
+<script type="text/javascript">
+
+  var app = new Vue({
+    el: '#app',
+    data: {
+      message : "看console板"
+    },
+    beforeCreate: function () {
+      console.log("%c%s", "font-size:20px" ,'beforeCreate 创建前状态===============》');
+      console.log("%c%s", "color:red" , "el     : " + this.$el); //undefined
+      console.log("%c%s", "color:red","data   : " + this.$data); //undefined
+      console.log("%c%s", "color:red","message: " + this.message)
+    },
+    created: function () {
+      console.log("%c%s", "font-size:20px" ,'created      创建完毕状态===============》');
+      console.log("%c%s", "color:red","el     : " + this.$el); //undefined
+      console.log("%c%s", "color:red","data   : " + this.$data); //已被初始化
+      console.log("%c%s", "color:red","message: " + this.message); //已被初始化
+    },
+    beforeMount: function () {
+      console.log("%c%s", "font-size:20px" ,'beforeMount  挂载前状态===============》');
+      console.log("%c%s", "color:red","el     : " + (this.$el)); //已被初始化
+      console.log(this.$el);
+      console.log("%c%s", "color:red","data   : " + this.$data); //已被初始化
+      console.log("%c%s", "color:red","message: " + this.message); //已被初始化
+    },
+    mounted: function () {
+      console.log("%c%s", "font-size:20px" ,'mounted      挂载结束状态===============》');
+      console.log("%c%s", "color:red","el     : " + this.$el); //已被初始化
+      console.log(this.$el);
+      console.log("%c%s", "color:red","data   : " + this.$data); //已被初始化
+      console.log("%c%s", "color:red","message: " + this.message); //已被初始化
+    },
+    beforeUpdate: function () {
+      console.log("%c%s", "font-size:20px" ,'beforeUpdate 更新前状态===============》');
+      console.log("%c%s", "color:red","el     : " + this.$el);
+      console.log(this.$el);
+      console.log("%c%s", "color:red","data   : " + this.$data);
+      console.log("%c%s", "color:red","message: " + this.message);
+    },
+    updated: function () {
+      console.log("%c%s", "font-size:20px" ,'updated      更新完成状态===============》');
+      console.log("%c%s", "color:red","el     : " + this.$el);
+      console.log(this.$el);
+      console.log("%c%s", "color:red","data   : " + this.$data);
+      console.log("%c%s", "color:red","message: " + this.message);
+    },
+    beforeDestroy: function () {
+      console.log("%c%s", "font-size:20px" ,'beforeDestroy 销毁前状态===============》');
+      console.log("%c%s", "color:red","el     : " + this.$el);
+      console.log(this.$el);
+      console.log("%c%s", "color:red","data   : " + this.$data);
+      console.log("%c%s", "color:red","message: " + this.message);
+    },
+    destroyed: function () {
+      console.log("%c%s", "font-size:20px" ,'destroyed    销毁完成状态===============》');
+      console.log("%c%s", "color:red","el     : " + this.$el);
+      console.log(this.$el);
+      console.log("%c%s", "color:red","data   : " + this.$data);
+      console.log("%c%s", "color:red","message: " + this.message)
+    },
+    methods:{
+      changeMessage(){
+        this.message = '你点击了，所以显示变了,可是当你在点击的时候，你会发现没有触发update,因为我的信息没变';
+//        this.message = '你点击了，所以显示变了'+ Math.random();
+      },
+      destroyFun(){
+        app.$destroy();
+      }
+    }
+  })
+</script>
+</body>
+</html>
