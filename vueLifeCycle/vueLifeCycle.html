@@ -97,7 +97,14 @@
         app.$destroy();
       }
     }
-  })
+  });
+  console.group("%c%s","font-size:20px，color：red","实例属性");
+  console.log(app.$data);
+  console.log(app.$props);
+  console.log(app.$el);
+  console.log(app.$root);
+
+
 </script>
 </body>
 </html>
