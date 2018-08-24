@@ -575,7 +575,7 @@ main {
 
 /* rotation period 27.322 days */
 .moon {
-  top: 0;
+  top: 2em;
   right: 0;
   width: 7em;
   height: 7em;
@@ -590,7 +590,7 @@ main {
 }
 
 .earth:before {
-  top: 2.2em;
+  top: 4em;
   right: 2.2em;
   width: 3em;
   height: 3em;
