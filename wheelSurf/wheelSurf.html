@@ -121,132 +121,37 @@
     <div class="begin_lottery">开始<br>抽奖</div>
   </div>
   <script>
-    let beginLottery = document.getElementsByClassName('begin_lottery')[0];
-    let wheelSurf=document.getElementsByClassName("wheelSurf")[0];
-    let deginDeg = 0;
-    let tryTime = 5;
-    let count = 0;
-    let beginFlag = false;
-    let maxDeg = 1000 + 720*Math.random();
-    let timers = null;
-    beginLottery.addEventListener('click',function(){
-      rollBegin();
+    window.addEventListener('DOMContentLoaded',function(){
+      roll()
     },false);
+    function roll(){
+      let beginLottery = document.getElementsByClassName('begin_lottery')[0];
+      let wheelSurf=document.getElementsByClassName("wheelSurf")[0];
+      let deginDeg = 0;
+      let MaxTryTime = 4;
+      let tryTime = 0;
+      let beginFlag = false;
+      let maxDeg;
+      beginLottery.addEventListener('click',function(){
+        maxDeg = 1000 + 720*Math.random();
+        rollBegin();
+      },false);
 
-    function rollBegin(){
-      if( beginFlag === false ){
-
-        var cc = "rotate("+maxDeg+"deg)";
-        // rotate.css({'transform':cc});
-        wheelSurf.style.transform = cc;
+      function rollBegin(){
+        if( beginFlag === false && tryTime <= MaxTryTime ){
+          tryTime++;
+          beginFlag = true;
+          deginDeg += maxDeg;
+          wheelSurf.style.transform = "rotate("+deginDeg+"deg)";
+          setTimeout(function(){
+            beginFlag = false;
+          },3000)
+        } else if( beginFlag === false ) {
+          alert('次数已用完');
+        }
       }
     }
 
-//    beginLottery.onclick=play;
-//    var timer = null;
-//    var count=0;
-    var degv=0;
-//    var random=0;
-//    function play(){
-////      count=0;
-//      random=Math.floor(Math.random()*6);
-//      clearInterval(timer);
-//      timer=setInterval(roll(),20);
-//    }
-
-    function roll(){
-      degv=count++;
-      degv=degv*20;
-
-    }
   </script>
 </body>
 </html>
-
-
-
-
-
-
-
-
-
-
-<html lang="en"><head>
-  <meta charset="UTF-8">
-  <title>抽奖</title>
-  <style type="text/css" media="screen">
-    *{
-      margin: 0;padding: 0;
-    }
-    #parent{
-      position: relative;
-      width: 300px;
-      height: 300px;
-      margin-left:200px;
-    }
-    #rotate{
-      width: 300px;
-      height: 300px;
-      transition: all 3s;
-    }
-    #rotate>img{display:block;width:100%;height:100%;}
-    #zhen{
-      position: absolute;
-      left: 50%;
-      top: 85px;
-      width: 80px;
-      margin-left:-40px;
-    }
-    #zhen>img{display:block;width:100%;}
-    .aa{
-      width: 130px;
-    }
-    #zhuanpan_small{position:absolute;width:150px;height:150px;display:block;left:70px;top:68px;transition:all 3s;}
-  </style>
-  <script type="text/javascript" src="http://code.jquery.com/jquery-1.4.1.js"></script>
-</head>
-<body>
-<img src="chilun1.png" id="zhuanpan_small" style="transform: rotate(-10800deg);">
-<div id="parent">
-  <div id="rotate" style="transform: rotate(5400deg);"><img src="chilun3.png"></div>
-  <div id="zhen"><img class="aa" src="zhizhen.png"></div>
-</div>
-
-<script type="text/javascript">
-  $(function(){
-    var bTag = 3;//剩余点击次数，这个实际应该从后台获取
-    var boot_item='';//上一次抽奖的结果
-    var boot_deg=0;//上次旋转角度
-    var zhen = document.getElementById('zhen');
-    var rotate = document.getElementById('rotate');
-    zhen.onclick = function(){
-      if(bTag==0){
-        alert('没有机会了');
-      }else{
-        var item =   Math.floor( Math.random()*6);//模拟本次抽奖的结果（0~5），实际应从后台获取
-
-
-        if(boot_item==''){//如果是第一次旋转
-          var aa=boot_deg+1800+item*60+'deg';//要旋转的角度，每次默认先旋转5圈（360*5=1800）
-          boot_item=item;//保存本次抽奖结果
-          boot_deg=parseInt(aa);//保存本次抽奖旋转读书
-        }else{//不是第一次旋转
-          var aa=boot_deg+1800+(item-boot_item)*60+'deg';
-          boot_item=item;
-          boot_deg=parseInt(aa);
-        }
-        bTag--;//模拟剩余抽奖次数，实际应从后台获取
-      }
-      //开始旋转，大转盘与小转盘的旋转圈数为齿轮之比，这里大转盘的齿轮是小转盘的2倍，因此小转盘的圈数*2
-      var cc = "rotate("+aa+")";
-      // rotate.css({'transform':cc});
-      rotate.style.transform = cc;
-    }
-  })
-
-</script>
-
-
-
-</body></html>
