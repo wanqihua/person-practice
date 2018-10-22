@@ -1,6 +1,6 @@
 /*
   放在body标签之前，在body加载前初始化成功，以防屏幕出现短暂闪烁的情况发生
-  注： 闪烁是因为重新定义了html的font-soize
+  注： 闪烁是因为重新定义了html的font-size
   初始化字体大小： iphone6时100px为1rem， 屏幕大小变化时重新初始化字体大小
   防止webview被默认HTML的fontSize改写
 */
