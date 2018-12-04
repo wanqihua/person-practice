@@ -621,7 +621,7 @@ wSpace.function = {
       }
     };
     //预加载需要的图片
-    // wSpace.function.preloadImg(['/common/images/loading.png']);
+    // wSpace.function.preloadImg(['/common/images/loading.png']);offsetTop
   },
 
   /**
